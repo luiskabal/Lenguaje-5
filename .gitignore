@@ -3,7 +3,8 @@
 # =============== #
 Temp/
 Library/
-
+# include meta files
+!*.*.meta
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
 # ===================================== #
