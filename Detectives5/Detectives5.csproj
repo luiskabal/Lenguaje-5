@@ -111,6 +111,7 @@
     <Compile Include="Assets\Scripts\Controllers\PersonajeAyuda.cs" />
     <Compile Include="Assets\Scripts\Controllers\Stars.cs" />
     <Compile Include="Assets\Scripts\Controllers\StarsNumeric.cs" />
+    <Compile Include="Assets\Scripts\EmergencyLoad.cs" />
     <Compile Include="Assets\Scripts\Librerias\Halp.cs" />
     <Compile Include="Assets\Scripts\Librerias\PruebasAcelerometro.cs" />
     <Compile Include="Assets\Scripts\Logos\GotoLogin.cs" />
@@ -118,6 +119,7 @@
     <Compile Include="Assets\Scripts\Sombras\CircleOutline.cs" />
     <Compile Include="Assets\Scripts\Sombras\ModifiedShadow.cs" />
     <Compile Include="Assets\Scripts\Sombras\Outline8.cs" />
+    <Compile Include="Assets\Scripts\WorldSelect\World_Controller_02.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\Controllers\JSON\readme.txt" />
