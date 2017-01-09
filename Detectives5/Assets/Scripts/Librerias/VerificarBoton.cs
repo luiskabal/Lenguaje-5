@@ -17,6 +17,7 @@ public class VerificarBoton : MonoBehaviour {
 	}
      void verificarBoton() {
         nombreBoton=this.gameObject.tag;
+        
         Debug.Log(this.gameObject.name);
     }
 }
