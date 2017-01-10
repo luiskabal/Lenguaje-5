@@ -81,6 +81,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Actividades\Actividad01\Actividad_01A\Act_1AController.cs" />
     <Compile Include="Assets\Scripts\Actividades\ActividadTEST\TestController.cs" />
     <Compile Include="Assets\Scripts\Actividades\Level_Template_Control.cs" />
     <Compile Include="Assets\Scripts\Controllers\Android.cs" />
@@ -113,7 +114,9 @@
     <Compile Include="Assets\Scripts\Controllers\StarsNumeric.cs" />
     <Compile Include="Assets\Scripts\EmergencyLoad.cs" />
     <Compile Include="Assets\Scripts\Librerias\Halp.cs" />
+    <Compile Include="Assets\Scripts\Librerias\NumeroRandom.cs" />
     <Compile Include="Assets\Scripts\Librerias\PruebasAcelerometro.cs" />
+    <Compile Include="Assets\Scripts\Librerias\VerificarBoton.cs" />
     <Compile Include="Assets\Scripts\Logos\GotoLogin.cs" />
     <Compile Include="Assets\Scripts\Sombras\BoxOutline.cs" />
     <Compile Include="Assets\Scripts\Sombras\CircleOutline.cs" />
