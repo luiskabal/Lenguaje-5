@@ -34,7 +34,7 @@ public class Act_1BController : MonoBehaviour {
     public GameObject[] palabraFrase9;
 
     NumeroRandom nr = new NumeroRandom();
-    static int numeroInicial;
+
     static int numeroSecuencia;
     static int numeroDeJuegosTotales;
     static int numeroDeJuegosActuales;
@@ -45,19 +45,41 @@ public class Act_1BController : MonoBehaviour {
 
 
     void Start () {
-        numeroInicial = 0;
         numeroSecuencia = 0;
         bb = GameObject.FindWithTag("Scripts").GetComponent<BigBoss>();
         desaparecerTodasCartas();
         nombresTextos();
         mostrarCarta();
+        Invoke("desaparecerSecuencias", 0f);
     }
    
  
     void mostrarCarta() {
-
-        TodasCartas[numeroSecuencia].gameObject.SetActive(true);
+     
+        if (numeroSecuencia <= 3)
+        {
+            TodasCartas[0].gameObject.SetActive(true);
+           
+        }
+        else {
+            if (numeroSecuencia >= 4 && numeroSecuencia <= 6)
+            {
+                TodasCartas[1].gameObject.SetActive(true);
+             
+            }
+            else {
+                TodasCartas[2].gameObject.SetActive(true);
+              
+            }
+        }      
         numerarTextos();
+
+    }
+    void desaparecerSecuencias() {
+ 
+        for (int i=0;i< TodasSecuencias.Length;i++) {
+            TodasSecuencias[i].SetActive(false);
+        }
 
     }
     void nombresTextos() {
@@ -160,18 +182,17 @@ public class Act_1BController : MonoBehaviour {
         }
     }
    public void abrirCarta() {
-
-
-
         //FALTA CERRAR LA ANTERIOR Y CAMBIARL
-
-        TodasSecuencias[numeroInicial].gameObject.SetActive(true);
-        TodasSecuencias[numeroInicial].gameObject.GetComponent<Animator>().SetTrigger("Carta_On");
+   
+        TodasSecuencias[numeroSecuencia].gameObject.SetActive(true);
+        TodasSecuencias[numeroSecuencia].gameObject.GetComponent<Animator>().SetTrigger("Carta_On");
+        numerarTextos();
         Invoke("desaparecerTodasCartas", 1f);
     }
     public void cerrarCarta()
     {
-        TodasSecuencias[numeroInicial].gameObject.GetComponent<Animator>().SetTrigger("Carta_Off");
+        TodasSecuencias[numeroSecuencia].gameObject.GetComponent<Animator>().SetTrigger("Carta_Off");
+        Invoke("desaparecerSecuencias", 1f);
     }
 
     void numerarTextos() {
@@ -208,22 +229,24 @@ public class Act_1BController : MonoBehaviour {
                 numeroDeJuegosTotales = texto9.Length;
                 break;
         }
+   
 
     }
     public void verificarEleccion(Button b)
     {
         if (b.tag == "Verdadero")
         {
+           
             b.GetComponent<Button>().interactable = false;
             mostrarTextos(int.Parse(b.name));
-            numeroDeJuegosActuales++;
-            Debug.Log(numeroDeJuegosActuales);
+            numeroDeJuegosActuales++;       
             if (numeroDeJuegosActuales == numeroDeJuegosTotales)
             {
+                numeroDeJuegosActuales = 0;
                 desaparecerTodasCartas();
+                cerrarCarta();
                 numeroSecuencia++;
                 mostrarCarta();
-                cerrarCarta();
                 ganar();
             }
          
@@ -239,8 +262,7 @@ public class Act_1BController : MonoBehaviour {
         if (!bb.Good())
         {
             if (bb.StarWon())
-            {
-               
+            {               
             }
         }
     }
@@ -256,13 +278,7 @@ public class Act_1BController : MonoBehaviour {
         }
 
     }
-    void desaparecerSecuencias()
-    {
-        for (int i = 0; i < TodasSecuencias.Length; i++)
-        {
-            TodasSecuencias[i].SetActive(false);
-        }
-    }
+ 
 
     void Update () {
 		
