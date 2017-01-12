@@ -27,7 +27,7 @@ public class Act_1AController : MonoBehaviour {
     }
 
     void iniciar() {       
-        Invoke("deshabilitarCartas", 4f);    
+        Invoke("deshabilitarCartas", 6f);    
     }
 
     void deshabilitarCartas() {
@@ -60,7 +60,7 @@ public class Act_1AController : MonoBehaviour {
         {
             TodasCartas[numeroCartas[numeroInicial]].transform.GetChild(2).transform.GetChild(i).gameObject.GetComponent<Button>().interactable = false;
         }
-        Invoke("cerrarCarta", 2f);
+        Invoke("cerrarCarta", 1f);
 
     }
     void habilitarInteractable()
