@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Actividades\Actividad01\Actividad_01A\Act_1AController.cs" />
      <Compile Include="Assets\Scripts\Actividades\Actividad01\Actividad_01B\Act_1BController.cs" />
+     <Compile Include="Assets\Scripts\Actividades\Actividad01\Actividad_01C\Act_1CController.cs" />
      <Compile Include="Assets\Scripts\Actividades\ActividadTEST\TestController.cs" />
      <Compile Include="Assets\Scripts\Actividades\Level_Template_Control.cs" />
      <Compile Include="Assets\Scripts\Controllers\Android.cs" />

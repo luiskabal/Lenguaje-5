@@ -40,9 +40,7 @@ public class Act_1BController : MonoBehaviour {
     static int numeroDeJuegosActuales;
     // Use this for initialization
 
-
-
-
+        
 
     void Start () {
         numeroSecuencia = 0;
