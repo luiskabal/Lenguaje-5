@@ -97,7 +97,6 @@ public class Act_1AController : MonoBehaviour {
         else {
             perder();
         }
-
     }
     public void moverCarta() {
         botonCarta.GetComponent<Animator>().enabled = false;
@@ -106,6 +105,7 @@ public class Act_1AController : MonoBehaviour {
         int y = Random.Range(-240, -168);
          y = Random.Range(-240, -168);
         Debug.Log(x+" , "+y);
+        Debug.Log("Se mueve la carta");
         botonCarta.GetComponent<RectTransform>().localPosition = new Vector3(x,y,0);
         botonCarta.GetComponent<Animator>().enabled = true;
 
