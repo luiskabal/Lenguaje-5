@@ -3083,9 +3083,10 @@ GameObject:
   - component: {fileID: 282292086}
   - component: {fileID: 282292085}
   - component: {fileID: 282292084}
+  - component: {fileID: 282292087}
   m_Layer: 5
   m_Name: Boton_ninguno
-  m_TagString: Untagged
+  m_TagString: Ninguno
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3183,6 +3184,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 282292082}
+--- !u!61 &282292087
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 282292082}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 150, y: 40}
 --- !u!1 &289500999
 GameObject:
   m_ObjectHideFlags: 0
@@ -3598,9 +3613,10 @@ GameObject:
   - component: {fileID: 315840166}
   - component: {fileID: 315840165}
   - component: {fileID: 315840164}
+  - component: {fileID: 315840167}
   m_Layer: 5
   m_Name: Boton_presente
-  m_TagString: Untagged
+  m_TagString: Presente
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3698,6 +3714,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 315840162}
+--- !u!61 &315840167
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 315840162}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 150, y: 40}
 --- !u!1 &317430442
 GameObject:
   m_ObjectHideFlags: 0
@@ -6522,9 +6552,10 @@ GameObject:
   - component: {fileID: 525670574}
   - component: {fileID: 525670573}
   - component: {fileID: 525670578}
+  - component: {fileID: 525670579}
   m_Layer: 5
   m_Name: Button (2)
-  m_TagString: Verdadero
+  m_TagString: Pasado
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6670,6 +6701,18 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 100, y: 50}
+--- !u!114 &525670579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 525670571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b4b955167f7d91418d2221e4b2de224, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dragging: 0
 --- !u!1 &527185920
 GameObject:
   m_ObjectHideFlags: 0
@@ -9345,9 +9388,10 @@ GameObject:
   - component: {fileID: 751101087}
   - component: {fileID: 751101086}
   - component: {fileID: 751101091}
+  - component: {fileID: 751101092}
   m_Layer: 5
   m_Name: Button (3)
-  m_TagString: Verdadero
+  m_TagString: Futuro
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9493,6 +9537,18 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 120, y: 40}
+--- !u!114 &751101092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 751101084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b4b955167f7d91418d2221e4b2de224, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dragging: 0
 --- !u!1 &752968117
 GameObject:
   m_ObjectHideFlags: 0
@@ -12238,9 +12294,10 @@ GameObject:
   - component: {fileID: 1029365290}
   - component: {fileID: 1029365289}
   - component: {fileID: 1029365288}
+  - component: {fileID: 1029365291}
   m_Layer: 5
   m_Name: Boton_futuro
-  m_TagString: Untagged
+  m_TagString: Futuro
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12338,6 +12395,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1029365286}
+--- !u!61 &1029365291
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1029365286}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 150, y: 40}
 --- !u!1 &1031650310
 GameObject:
   m_ObjectHideFlags: 0
@@ -14047,6 +14118,7 @@ GameObject:
   - component: {fileID: 1204025879}
   - component: {fileID: 1204025878}
   - component: {fileID: 1204025880}
+  - component: {fileID: 1204025881}
   m_Layer: 5
   m_Name: ScriptHolder
   m_TagString: Scripts
@@ -14194,6 +14266,25 @@ MonoBehaviour:
   - {fileID: 1180216945}
   - {fileID: 1363723738}
   - {fileID: 1206518305}
+--- !u!114 &1204025881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1204025874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5a2a4b42777ed44386bc0a962649fef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  acierto: {fileID: 0}
+  Tags: 1
+  Names: 0
+  JuntarObjetos: 0
+  DesaparecerArrastrable: 0
+  "DesaparecerColici\xF3n": 1
+  ColliderArrastrable: 0
+  ColliderColicion: 0
 --- !u!1 &1206518305
 GameObject:
   m_ObjectHideFlags: 0
@@ -18318,7 +18409,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1525357247
 RectTransform:
   m_ObjectHideFlags: 0
@@ -18474,9 +18565,10 @@ GameObject:
   - component: {fileID: 1553750607}
   - component: {fileID: 1553750606}
   - component: {fileID: 1553750605}
+  - component: {fileID: 1553750608}
   m_Layer: 5
   m_Name: Boton_pasado
-  m_TagString: Untagged
+  m_TagString: Pasado
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18574,6 +18666,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1553750603}
+--- !u!61 &1553750608
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1553750603}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 150, y: 40}
 --- !u!1 &1554316304
 GameObject:
   m_ObjectHideFlags: 0
@@ -19389,9 +19495,10 @@ GameObject:
   - component: {fileID: 1607692913}
   - component: {fileID: 1607692912}
   - component: {fileID: 1607692917}
+  - component: {fileID: 1607692918}
   m_Layer: 5
   m_Name: Button (8)
-  m_TagString: Verdadero
+  m_TagString: Presente
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19537,6 +19644,18 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 100, y: 40}
+--- !u!114 &1607692918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1607692910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b4b955167f7d91418d2221e4b2de224, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dragging: 0
 --- !u!1 &1616493168
 GameObject:
   m_ObjectHideFlags: 0
