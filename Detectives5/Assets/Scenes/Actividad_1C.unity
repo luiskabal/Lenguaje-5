@@ -104,6 +104,7 @@ GameObject:
   - component: {fileID: 2445689}
   - component: {fileID: 2445688}
   - component: {fileID: 2445687}
+  - component: {fileID: 2445692}
   m_Layer: 5
   m_Name: Button (7)
   m_TagString: Verdadero
@@ -238,6 +239,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2445685}
+--- !u!61 &2445692
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2445685}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 90, y: 40}
 --- !u!1 &4278593
 GameObject:
   m_ObjectHideFlags: 0
@@ -535,18 +550,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 10889223}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204025878}
-        m_MethodName: verificarEleccion
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 10889220}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &10889223
@@ -846,6 +850,7 @@ GameObject:
   - component: {fileID: 64750690}
   - component: {fileID: 64750689}
   - component: {fileID: 64750688}
+  - component: {fileID: 64750693}
   m_Layer: 5
   m_Name: Button (6)
   m_TagString: Verdadero
@@ -980,6 +985,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 64750686}
+--- !u!61 &64750693
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 64750686}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 150, y: 40}
 --- !u!1 &84089427
 GameObject:
   m_ObjectHideFlags: 0
@@ -1159,6 +1178,7 @@ GameObject:
   - component: {fileID: 110996491}
   - component: {fileID: 110996490}
   - component: {fileID: 110996489}
+  - component: {fileID: 110996494}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Verdadero
@@ -1293,6 +1313,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 110996487}
+--- !u!61 &110996494
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 110996487}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 150, y: 40}
 --- !u!1 &114972778
 GameObject:
   m_ObjectHideFlags: 0
@@ -1710,18 +1744,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 165676873}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204025878}
-        m_MethodName: verificarEleccion
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 165676870}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &165676873
@@ -1918,6 +1941,7 @@ GameObject:
   - component: {fileID: 186812613}
   - component: {fileID: 186812612}
   - component: {fileID: 186812611}
+  - component: {fileID: 186812616}
   m_Layer: 5
   m_Name: Button (6)
   m_TagString: Verdadero
@@ -2052,6 +2076,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 186812609}
+--- !u!61 &186812616
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 186812609}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 100, y: 40}
 --- !u!1 &187880981
 GameObject:
   m_ObjectHideFlags: 0
@@ -2419,6 +2457,7 @@ GameObject:
   - component: {fileID: 235143923}
   - component: {fileID: 235143922}
   - component: {fileID: 235143921}
+  - component: {fileID: 235143926}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Verdadero
@@ -2553,6 +2592,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 235143919}
+--- !u!61 &235143926
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 235143919}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 80, y: 40}
 --- !u!1 &241596750
 GameObject:
   m_ObjectHideFlags: 0
@@ -2628,18 +2681,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 241596753}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204025878}
-        m_MethodName: verificarEleccion
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 241596750}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &241596753
@@ -2881,6 +2923,7 @@ GameObject:
   - component: {fileID: 277080061}
   - component: {fileID: 277080060}
   - component: {fileID: 277080059}
+  - component: {fileID: 277080064}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Verdadero
@@ -3015,6 +3058,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 277080057}
+--- !u!61 &277080064
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 277080057}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 150, y: 40}
 --- !u!1 &282292082
 GameObject:
   m_ObjectHideFlags: 0
@@ -3028,7 +3085,7 @@ GameObject:
   - component: {fileID: 282292084}
   m_Layer: 5
   m_Name: Boton_ninguno
-  m_TagString: Verdadero
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3090,18 +3147,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 282292085}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204025878}
-        m_MethodName: verificarEleccion
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 282292082}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &282292085
@@ -3224,6 +3270,7 @@ GameObject:
   - component: {fileID: 292810869}
   - component: {fileID: 292810868}
   - component: {fileID: 292810867}
+  - component: {fileID: 292810872}
   m_Layer: 5
   m_Name: Button (6)
   m_TagString: Verdadero
@@ -3358,6 +3405,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 292810865}
+--- !u!61 &292810872
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 292810865}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 150, y: 40}
 --- !u!114 &293452017 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114723006260589260, guid: 59632dd38da7f3544834f3473f1d954a,
@@ -3377,6 +3438,7 @@ GameObject:
   - component: {fileID: 300990834}
   - component: {fileID: 300990833}
   - component: {fileID: 300990832}
+  - component: {fileID: 300990837}
   m_Layer: 5
   m_Name: Button (7)
   m_TagString: Verdadero
@@ -3511,6 +3573,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 300990830}
+--- !u!61 &300990837
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 300990830}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 118.73, y: 40}
 --- !u!1 &315840162
 GameObject:
   m_ObjectHideFlags: 0
@@ -3524,7 +3600,7 @@ GameObject:
   - component: {fileID: 315840164}
   m_Layer: 5
   m_Name: Boton_presente
-  m_TagString: Verdadero
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3586,18 +3662,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 315840165}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204025878}
-        m_MethodName: verificarEleccion
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 315840162}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &315840165
@@ -3782,18 +3847,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 326125305}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204025878}
-        m_MethodName: verificarEleccion
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 326125302}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &326125305
@@ -4122,18 +4176,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 355485415}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204025878}
-        m_MethodName: verificarEleccion
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 355485412}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &355485415
@@ -4684,18 +4727,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 380408582}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204025878}
-        m_MethodName: verificarEleccion
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 380408579}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &380408582
@@ -4812,18 +4844,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 406123298}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204025878}
-        m_MethodName: verificarEleccion
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 406123295}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &406123298
@@ -4934,18 +4955,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 415532360}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204025878}
-        m_MethodName: verificarEleccion
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 415532357}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &415532360
@@ -5470,18 +5480,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 443527039}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204025878}
-        m_MethodName: verificarEleccion
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 443527036}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &443527039
@@ -5774,6 +5773,7 @@ GameObject:
   - component: {fileID: 487675127}
   - component: {fileID: 487675126}
   - component: {fileID: 487675125}
+  - component: {fileID: 487675130}
   m_Layer: 5
   m_Name: Button (7)
   m_TagString: Verdadero
@@ -5908,6 +5908,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 487675123}
+--- !u!61 &487675130
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 487675123}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 70, y: 40}
 --- !u!1 &496020540
 GameObject:
   m_ObjectHideFlags: 0
@@ -6037,18 +6051,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 513446728}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204025878}
-        m_MethodName: verificarEleccion
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 513446725}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &513446728
@@ -6159,18 +6162,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 514549123}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204025878}
-        m_MethodName: verificarEleccion
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 514549120}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &514549123
@@ -6529,6 +6521,7 @@ GameObject:
   - component: {fileID: 525670575}
   - component: {fileID: 525670574}
   - component: {fileID: 525670573}
+  - component: {fileID: 525670578}
   m_Layer: 5
   m_Name: Button (2)
   m_TagString: Verdadero
@@ -6663,6 +6656,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 525670571}
+--- !u!61 &525670578
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 525670571}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 100, y: 50}
 --- !u!1 &527185920
 GameObject:
   m_ObjectHideFlags: 0
@@ -6886,18 +6893,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 534189163}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204025878}
-        m_MethodName: verificarEleccion
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 534189160}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &534189163
@@ -7008,18 +7004,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 535197280}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204025878}
-        m_MethodName: verificarEleccion
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 535197277}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &535197280
@@ -7142,6 +7127,7 @@ GameObject:
   - component: {fileID: 558509456}
   - component: {fileID: 558509455}
   - component: {fileID: 558509454}
+  - component: {fileID: 558509459}
   m_Layer: 5
   m_Name: Button (7)
   m_TagString: Untagged
@@ -7276,6 +7262,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 558509452}
+--- !u!61 &558509459
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 558509452}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 150, y: 40}
 --- !u!1 &569431199
 GameObject:
   m_ObjectHideFlags: 0
@@ -7511,6 +7511,7 @@ GameObject:
   - component: {fileID: 599529465}
   - component: {fileID: 599529464}
   - component: {fileID: 599529463}
+  - component: {fileID: 599529468}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Verdadero
@@ -7645,6 +7646,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 599529461}
+--- !u!61 &599529468
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 599529461}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 100, y: 40}
 --- !u!1 &599627753
 GameObject:
   m_ObjectHideFlags: 0
@@ -7794,18 +7809,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 618631119}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204025878}
-        m_MethodName: verificarEleccion
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 618631116}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &618631119
@@ -8002,6 +8006,7 @@ GameObject:
   - component: {fileID: 631655687}
   - component: {fileID: 631655686}
   - component: {fileID: 631655685}
+  - component: {fileID: 631655690}
   m_Layer: 5
   m_Name: Button (4)
   m_TagString: Untagged
@@ -8136,6 +8141,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 631655683}
+--- !u!61 &631655690
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 631655683}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 100, y: 40}
 --- !u!1001 &632847664
 Prefab:
   m_ObjectHideFlags: 0
@@ -8517,18 +8536,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 664967151}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204025878}
-        m_MethodName: verificarEleccion
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 664967148}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &664967151
@@ -9102,18 +9110,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 730261778}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204025878}
-        m_MethodName: verificarEleccion
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 730261775}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &730261778
@@ -9298,18 +9295,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 742231107}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204025878}
-        m_MethodName: verificarEleccion
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 742231104}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &742231107
@@ -9358,6 +9344,7 @@ GameObject:
   - component: {fileID: 751101088}
   - component: {fileID: 751101087}
   - component: {fileID: 751101086}
+  - component: {fileID: 751101091}
   m_Layer: 5
   m_Name: Button (3)
   m_TagString: Verdadero
@@ -9492,6 +9479,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 751101084}
+--- !u!61 &751101091
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 751101084}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 120, y: 40}
 --- !u!1 &752968117
 GameObject:
   m_ObjectHideFlags: 0
@@ -9577,6 +9578,7 @@ GameObject:
   - component: {fileID: 790941418}
   - component: {fileID: 790941417}
   - component: {fileID: 790941416}
+  - component: {fileID: 790941421}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Verdadero
@@ -9711,6 +9713,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 790941414}
+--- !u!61 &790941421
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 790941414}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 100, y: 40}
 --- !u!1 &810520091
 GameObject:
   m_ObjectHideFlags: 0
@@ -10621,6 +10637,7 @@ GameObject:
   - component: {fileID: 924156875}
   - component: {fileID: 924156874}
   - component: {fileID: 924156873}
+  - component: {fileID: 924156878}
   m_Layer: 5
   m_Name: Button (7)
   m_TagString: Verdadero
@@ -10755,6 +10772,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 924156871}
+--- !u!61 &924156878
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 924156871}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 150, y: 40}
 --- !u!1001 &928978176
 Prefab:
   m_ObjectHideFlags: 0
@@ -11006,6 +11037,7 @@ GameObject:
   - component: {fileID: 946477674}
   - component: {fileID: 946477673}
   - component: {fileID: 946477672}
+  - component: {fileID: 946477677}
   m_Layer: 5
   m_Name: Button (2)
   m_TagString: Verdadero
@@ -11140,6 +11172,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 946477670}
+--- !u!61 &946477677
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 946477670}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 70, y: 40}
 --- !u!1 &967970686
 GameObject:
   m_ObjectHideFlags: 0
@@ -11153,6 +11199,7 @@ GameObject:
   - component: {fileID: 967970690}
   - component: {fileID: 967970689}
   - component: {fileID: 967970688}
+  - component: {fileID: 967970693}
   m_Layer: 5
   m_Name: Button (6)
   m_TagString: Verdadero
@@ -11287,6 +11334,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 967970686}
+--- !u!61 &967970693
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 967970686}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 140, y: 40}
 --- !u!1 &979179432
 GameObject:
   m_ObjectHideFlags: 0
@@ -11374,6 +11435,7 @@ GameObject:
   - component: {fileID: 984420774}
   - component: {fileID: 984420773}
   - component: {fileID: 984420772}
+  - component: {fileID: 984420777}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Verdadero
@@ -11508,6 +11570,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 984420770}
+--- !u!61 &984420777
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 984420770}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 140, y: 40}
 --- !u!1 &1012442897
 GameObject:
   m_ObjectHideFlags: 0
@@ -11583,18 +11659,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1012442900}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204025878}
-        m_MethodName: verificarEleccion
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1012442897}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1012442900
@@ -11779,18 +11844,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1020634782}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204025878}
-        m_MethodName: verificarEleccion
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1020634779}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1020634782
@@ -12063,18 +12117,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1025679170}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204025878}
-        m_MethodName: verificarEleccion
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1025679167}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1025679170
@@ -12197,7 +12240,7 @@ GameObject:
   - component: {fileID: 1029365288}
   m_Layer: 5
   m_Name: Boton_futuro
-  m_TagString: Verdadero
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12259,18 +12302,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1029365289}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204025878}
-        m_MethodName: verificarEleccion
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1029365286}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1029365289
@@ -12791,18 +12823,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1070788192}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204025878}
-        m_MethodName: verificarEleccion
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1070788189}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1070788192
@@ -12999,6 +13020,7 @@ GameObject:
   - component: {fileID: 1102545869}
   - component: {fileID: 1102545868}
   - component: {fileID: 1102545867}
+  - component: {fileID: 1102545872}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Verdadero
@@ -13133,6 +13155,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1102545865}
+--- !u!61 &1102545872
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1102545865}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 160, y: 40}
 --- !u!1 &1102596547
 GameObject:
   m_ObjectHideFlags: 0
@@ -13676,6 +13712,7 @@ GameObject:
   - component: {fileID: 1180216949}
   - component: {fileID: 1180216948}
   - component: {fileID: 1180216947}
+  - component: {fileID: 1180216952}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Verdadero
@@ -13810,6 +13847,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1180216945}
+--- !u!61 &1180216952
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1180216945}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 50, y: 40}
 --- !u!1 &1193502815
 GameObject:
   m_ObjectHideFlags: 0
@@ -13947,18 +13998,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1193744615}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204025878}
-        m_MethodName: verificarEleccion
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1193744612}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1193744615
@@ -14006,6 +14046,7 @@ GameObject:
   - component: {fileID: 1204025877}
   - component: {fileID: 1204025879}
   - component: {fileID: 1204025878}
+  - component: {fileID: 1204025880}
   m_Layer: 5
   m_Name: ScriptHolder
   m_TagString: Scripts
@@ -14106,6 +14147,53 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 275ec60c77f14a74ebd1424e6c0746c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1204025880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1204025874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ffc9de70321fe247a49744f430f011e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objetos:
+  - {fileID: 525670571}
+  - {fileID: 751101084}
+  - {fileID: 1607692910}
+  - {fileID: 946477670}
+  - {fileID: 631655683}
+  - {fileID: 1594447761}
+  - {fileID: 1651524032}
+  - {fileID: 924156871}
+  - {fileID: 110996487}
+  - {fileID: 558509452}
+  - {fileID: 235143919}
+  - {fileID: 186812609}
+  - {fileID: 1565321401}
+  - {fileID: 599529461}
+  - {fileID: 1407296305}
+  - {fileID: 487675123}
+  - {fileID: 1978942127}
+  - {fileID: 2071526613}
+  - {fileID: 984420770}
+  - {fileID: 967970686}
+  - {fileID: 1318639449}
+  - {fileID: 1425428396}
+  - {fileID: 277080057}
+  - {fileID: 292810865}
+  - {fileID: 2445685}
+  - {fileID: 1462381348}
+  - {fileID: 1102545865}
+  - {fileID: 1774135461}
+  - {fileID: 1673424594}
+  - {fileID: 790941414}
+  - {fileID: 64750686}
+  - {fileID: 300990830}
+  - {fileID: 1180216945}
+  - {fileID: 1363723738}
+  - {fileID: 1206518305}
 --- !u!1 &1206518305
 GameObject:
   m_ObjectHideFlags: 0
@@ -14119,6 +14207,7 @@ GameObject:
   - component: {fileID: 1206518309}
   - component: {fileID: 1206518308}
   - component: {fileID: 1206518307}
+  - component: {fileID: 1206518312}
   m_Layer: 5
   m_Name: Button (7)
   m_TagString: Verdadero
@@ -14253,6 +14342,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1206518305}
+--- !u!61 &1206518312
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1206518305}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 100, y: 40}
 --- !u!1 &1211048123
 GameObject:
   m_ObjectHideFlags: 0
@@ -14526,18 +14629,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1226914838}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204025878}
-        m_MethodName: verificarEleccion
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1226914835}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1226914838
@@ -15071,18 +15163,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1288876841}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204025878}
-        m_MethodName: verificarEleccion
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1288876838}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1288876841
@@ -15267,18 +15348,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1309639882}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204025878}
-        m_MethodName: verificarEleccion
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1309639879}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1309639882
@@ -15389,18 +15459,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1316057634}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204025878}
-        m_MethodName: verificarEleccion
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1316057631}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1316057634
@@ -15449,6 +15508,7 @@ GameObject:
   - component: {fileID: 1318639453}
   - component: {fileID: 1318639452}
   - component: {fileID: 1318639451}
+  - component: {fileID: 1318639456}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Verdadero
@@ -15583,6 +15643,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1318639449}
+--- !u!61 &1318639456
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1318639449}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 150, y: 40}
 --- !u!1 &1323842097
 GameObject:
   m_ObjectHideFlags: 0
@@ -15658,18 +15732,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1323842100}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204025878}
-        m_MethodName: verificarEleccion
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1323842097}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1323842100
@@ -16017,6 +16080,7 @@ GameObject:
   - component: {fileID: 1363723742}
   - component: {fileID: 1363723741}
   - component: {fileID: 1363723740}
+  - component: {fileID: 1363723745}
   m_Layer: 5
   m_Name: Button (6)
   m_TagString: Verdadero
@@ -16151,6 +16215,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1363723738}
+--- !u!61 &1363723745
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1363723738}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 90, y: 40}
 --- !u!1 &1391745851
 GameObject:
   m_ObjectHideFlags: 0
@@ -16226,18 +16304,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1391745854}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204025878}
-        m_MethodName: verificarEleccion
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1391745851}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1391745854
@@ -16422,18 +16489,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1400331363}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204025878}
-        m_MethodName: verificarEleccion
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1400331360}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1400331363
@@ -16482,6 +16538,7 @@ GameObject:
   - component: {fileID: 1407296309}
   - component: {fileID: 1407296308}
   - component: {fileID: 1407296307}
+  - component: {fileID: 1407296312}
   m_Layer: 5
   m_Name: Button (6)
   m_TagString: Verdadero
@@ -16616,6 +16673,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1407296305}
+--- !u!61 &1407296312
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1407296305}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 140, y: 40}
 --- !u!1 &1425001402
 GameObject:
   m_ObjectHideFlags: 0
@@ -16691,18 +16762,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1425001405}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204025878}
-        m_MethodName: verificarEleccion
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1425001402}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1425001405
@@ -16751,6 +16811,7 @@ GameObject:
   - component: {fileID: 1425428400}
   - component: {fileID: 1425428399}
   - component: {fileID: 1425428398}
+  - component: {fileID: 1425428403}
   m_Layer: 5
   m_Name: Button (6)
   m_TagString: Verdadero
@@ -16885,6 +16946,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1425428396}
+--- !u!61 &1425428403
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1425428396}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 150, y: 40}
 --- !u!1 &1430132549
 GameObject:
   m_ObjectHideFlags: 0
@@ -17034,18 +17109,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1447335565}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204025878}
-        m_MethodName: verificarEleccion
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1447335562}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1447335565
@@ -17285,6 +17349,7 @@ GameObject:
   - component: {fileID: 1462381352}
   - component: {fileID: 1462381351}
   - component: {fileID: 1462381350}
+  - component: {fileID: 1462381355}
   m_Layer: 5
   m_Name: Button (8)
   m_TagString: Verdadero
@@ -17419,6 +17484,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1462381348}
+--- !u!61 &1462381355
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1462381348}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 90, y: 40}
 --- !u!1 &1465216807
 GameObject:
   m_ObjectHideFlags: 0
@@ -17642,18 +17721,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1483836059}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204025878}
-        m_MethodName: verificarEleccion
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1483836056}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1483836059
@@ -17914,18 +17982,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1496607786}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204025878}
-        m_MethodName: verificarEleccion
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1496607783}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1496607786
@@ -18419,7 +18476,7 @@ GameObject:
   - component: {fileID: 1553750605}
   m_Layer: 5
   m_Name: Boton_pasado
-  m_TagString: Verdadero
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18481,18 +18538,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1553750606}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204025878}
-        m_MethodName: verificarEleccion
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1553750603}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1553750606
@@ -18615,6 +18661,7 @@ GameObject:
   - component: {fileID: 1565321405}
   - component: {fileID: 1565321404}
   - component: {fileID: 1565321403}
+  - component: {fileID: 1565321408}
   m_Layer: 5
   m_Name: Button (7)
   m_TagString: Verdadero
@@ -18749,6 +18796,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1565321401}
+--- !u!61 &1565321408
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1565321401}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 70, y: 40}
 --- !u!1 &1567937172
 GameObject:
   m_ObjectHideFlags: 0
@@ -19165,6 +19226,7 @@ GameObject:
   - component: {fileID: 1594447765}
   - component: {fileID: 1594447764}
   - component: {fileID: 1594447763}
+  - component: {fileID: 1594447768}
   m_Layer: 5
   m_Name: Button (5)
   m_TagString: Verdadero
@@ -19299,6 +19361,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1594447761}
+--- !u!61 &1594447768
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1594447761}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 100, y: 40}
 --- !u!1 &1607692910
 GameObject:
   m_ObjectHideFlags: 0
@@ -19312,6 +19388,7 @@ GameObject:
   - component: {fileID: 1607692914}
   - component: {fileID: 1607692913}
   - component: {fileID: 1607692912}
+  - component: {fileID: 1607692917}
   m_Layer: 5
   m_Name: Button (8)
   m_TagString: Verdadero
@@ -19446,6 +19523,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1607692910}
+--- !u!61 &1607692917
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1607692910}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 100, y: 40}
 --- !u!1 &1616493168
 GameObject:
   m_ObjectHideFlags: 0
@@ -19795,6 +19886,7 @@ GameObject:
   - component: {fileID: 1651524036}
   - component: {fileID: 1651524035}
   - component: {fileID: 1651524034}
+  - component: {fileID: 1651524039}
   m_Layer: 5
   m_Name: Button (6)
   m_TagString: Verdadero
@@ -19929,6 +20021,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1651524032}
+--- !u!61 &1651524039
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1651524032}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 150, y: 40}
 --- !u!1 &1673424594
 GameObject:
   m_ObjectHideFlags: 0
@@ -19942,6 +20048,7 @@ GameObject:
   - component: {fileID: 1673424598}
   - component: {fileID: 1673424597}
   - component: {fileID: 1673424596}
+  - component: {fileID: 1673424601}
   m_Layer: 5
   m_Name: Button (7)
   m_TagString: Verdadero
@@ -20076,6 +20183,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1673424594}
+--- !u!61 &1673424601
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1673424594}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 190, y: 40}
 --- !u!1 &1675841983
 GameObject:
   m_ObjectHideFlags: 0
@@ -20151,18 +20272,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1675841986}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204025878}
-        m_MethodName: verificarEleccion
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1675841983}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1675841986
@@ -20435,18 +20545,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1688508233}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204025878}
-        m_MethodName: verificarEleccion
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1688508230}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1688508233
@@ -20793,18 +20892,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1721428179}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204025878}
-        m_MethodName: verificarEleccion
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1721428176}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1721428179
@@ -20915,18 +21003,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1721885958}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204025878}
-        m_MethodName: verificarEleccion
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1721885955}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1721885958
@@ -21339,18 +21416,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1752824639}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204025878}
-        m_MethodName: verificarEleccion
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1752824636}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1752824639
@@ -21609,18 +21675,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1769980054}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204025878}
-        m_MethodName: verificarEleccion
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1769980051}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1769980054
@@ -21669,6 +21724,7 @@ GameObject:
   - component: {fileID: 1774135465}
   - component: {fileID: 1774135464}
   - component: {fileID: 1774135463}
+  - component: {fileID: 1774135468}
   m_Layer: 5
   m_Name: Button (6)
   m_TagString: Verdadero
@@ -21803,6 +21859,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1774135461}
+--- !u!61 &1774135468
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1774135461}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 150, y: 40}
 --- !u!1 &1774996247
 GameObject:
   m_ObjectHideFlags: 0
@@ -22169,7 +22239,7 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1811396824}
-  m_LocalRotation: {x: -0, y: -0, z: -0.05816151, w: 0.99830717}
+  m_LocalRotation: {x: -0, y: -0, z: -0.058161512, w: 0.9983072}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.99974775, y: 0.99974775, z: 0.99974775}
   m_Children: []
@@ -23237,18 +23307,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1914345998}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204025878}
-        m_MethodName: verificarEleccion
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1914345995}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1914345998
@@ -23607,6 +23666,7 @@ GameObject:
   - component: {fileID: 1978942131}
   - component: {fileID: 1978942130}
   - component: {fileID: 1978942129}
+  - component: {fileID: 1978942134}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Verdadero
@@ -23741,6 +23801,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1978942127}
+--- !u!61 &1978942134
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1978942127}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 140, y: 40}
 --- !u!1 &1979849295
 GameObject:
   m_ObjectHideFlags: 0
@@ -24081,18 +24155,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2001659577}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204025878}
-        m_MethodName: verificarEleccion
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 2001659574}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &2001659577
@@ -24203,18 +24266,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2021513933}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204025878}
-        m_MethodName: verificarEleccion
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 2021513930}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &2021513933
@@ -24439,18 +24491,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2026454536}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204025878}
-        m_MethodName: verificarEleccion
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 2026454533}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &2026454536
@@ -24887,6 +24928,7 @@ GameObject:
   - component: {fileID: 2071526617}
   - component: {fileID: 2071526616}
   - component: {fileID: 2071526615}
+  - component: {fileID: 2071526620}
   m_Layer: 5
   m_Name: Button (6)
   m_TagString: Verdadero
@@ -25021,6 +25063,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2071526613}
+--- !u!61 &2071526620
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2071526613}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 140, y: 40}
 --- !u!1 &2073842453
 GameObject:
   m_ObjectHideFlags: 0
@@ -25380,18 +25436,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2096517629}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1204025878}
-        m_MethodName: verificarEleccion
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 2096517626}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &2096517629

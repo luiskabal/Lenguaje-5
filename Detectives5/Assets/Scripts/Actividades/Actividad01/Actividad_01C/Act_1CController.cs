@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class Act_1CController : MonoBehaviour {
     BigBoss bb;
+    posicionarObjetos po;
     public GameObject[] TodasCartas;
     public GameObject[] TodasSecuencias;
     static int numeroSecuencia;
 
     // Use this for initialization
     void Start () {
+        po.guardarLocacionesTodosLosObjetos();
         numeroSecuencia = 0;
         bb = GameObject.FindWithTag("Scripts").GetComponent<BigBoss>();
         desaparecerTodasCartas();
