@@ -11,25 +11,44 @@ public class Act_1CController : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        po.guardarLocacionesTodosLosObjetos();
-        numeroSecuencia = 0;
+        po = GameObject.FindWithTag("Scripts").GetComponent<posicionarObjetos>();
         bb = GameObject.FindWithTag("Scripts").GetComponent<BigBoss>();
+        po.guardarLocacionesTodosLosObjetos();
+        numeroSecuencia = 0;      
         desaparecerTodasCartas();
         mostrarCarta();
+       
     }
 	
 	// Update is called once per frame
 	void Update () {
 		
 	}
-
+    void guardarPosiciones() {
+        po.guardarLocacionesTodosLosObjetos();
+    }
     public void abrirCarta()
     {
         //FALTA CERRAR LA ANTERIOR Y CAMBIARL
-
+        deshabilitarMovimiento();
         TodasSecuencias[numeroSecuencia].gameObject.SetActive(true);
         TodasSecuencias[numeroSecuencia].gameObject.GetComponent<Animator>().SetTrigger("Carta_On");
         Invoke("desaparecerTodasCartas", 1f);
+
+        Invoke("guardarPosiciones",1f);
+        Invoke("habilitarMovimiento", 1.1f);
+    }
+    void deshabilitarMovimiento()
+    {
+        for (int i = 0; i < po.objetos.Length; i++)
+        {
+            po.objetos[i].gameObject.GetComponent<BoxCollider2D>().enabled = false;
+        }
+    }
+    void habilitarMovimiento() {
+        for (int i=0;i<po.objetos.Length;i++) {
+            po.objetos[i].gameObject.GetComponent<BoxCollider2D>().enabled = true;
+        }
     }
        
     void mostrarCarta()

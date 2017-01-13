@@ -30,6 +30,9 @@ public class posicionarObjetos : MonoBehaviour {
     }
     public void guardarLocacionesTodosLosObjetos()
     {
+        posicion.Clear();
+        tamaño.Clear();
+        tamañoCollider.Clear();
         for (int i = 0; i < objetos.Length; i++)
         {
             posicion.Add(objetos[i].transform.position);
