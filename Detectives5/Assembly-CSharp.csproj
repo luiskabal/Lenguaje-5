@@ -1,12 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <ProjectGuid>{1AA066BB-DD96-497A-2129-F7183ECEDE29}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -47,72 +46,78 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Actividades\Actividad01\Actividad_01A\Act_1AController.cs" />
-    <Compile Include="Assets\Scripts\Actividades\Actividad01\Actividad_01B\Act_1BController.cs" />
-    <Compile Include="Assets\Scripts\Actividades\Actividad01\Actividad_01C\Act_1CController.cs" />
-    <Compile Include="Assets\Scripts\Actividades\ActividadTEST\TestController.cs" />
-    <Compile Include="Assets\Scripts\Actividades\Level_Template_Control.cs" />
-    <Compile Include="Assets\Scripts\Controllers\Android.cs" />
-    <Compile Include="Assets\Scripts\Controllers\Badges.cs" />
-    <Compile Include="Assets\Scripts\Controllers\BigBoss.cs" />
-    <Compile Include="Assets\Scripts\Controllers\BigMama.cs" />
-    <Compile Include="Assets\Scripts\Controllers\Cinema.cs" />
-    <Compile Include="Assets\Scripts\Controllers\Clock.cs" />
-    <Compile Include="Assets\Scripts\Controllers\Countdown.cs" />
-    <Compile Include="Assets\Scripts\Controllers\EtapasController.cs" />
-    <Compile Include="Assets\Scripts\Controllers\Fx.cs" />
-    <Compile Include="Assets\Scripts\Controllers\Instructions.cs" />
-    <Compile Include="Assets\Scripts\Controllers\JSON\JSONObject.cs" />
-    <Compile Include="Assets\Scripts\Controllers\JSON\JSONTemplates.cs" />
-    <Compile Include="Assets\Scripts\Controllers\JSON\SimpleJSON.cs" />
-    <Compile Include="Assets\Scripts\Controllers\JSON\VectorTemplates.cs" />
-    <Compile Include="Assets\Scripts\Controllers\Lives.cs" />
-    <Compile Include="Assets\Scripts\Controllers\Loading.cs" />
-    <Compile Include="Assets\Scripts\Controllers\LoginStuff\GameManager.cs" />
-    <Compile Include="Assets\Scripts\Controllers\LoginStuff\LoginController.cs" />
-    <Compile Include="Assets\Scripts\Controllers\LoginStuff\PlayerStatistics.cs" />
-    <Compile Include="Assets\Scripts\Controllers\LoginStuff\SaveLoadPlayer.cs" />
-    <Compile Include="Assets\Scripts\Controllers\LoginStuff\Services.cs" />
-    <Compile Include="Assets\Scripts\Controllers\LoginStuff\SuperHeroLoader.cs" />
-    <Compile Include="Assets\Scripts\Controllers\MensajeAnimation.cs" />
-    <Compile Include="Assets\Scripts\Controllers\Music.cs" />
-    <Compile Include="Assets\Scripts\Controllers\Pause.cs" />
-    <Compile Include="Assets\Scripts\Controllers\PersonajeAyuda.cs" />
-    <Compile Include="Assets\Scripts\Controllers\Stars.cs" />
-    <Compile Include="Assets\Scripts\Controllers\StarsNumeric.cs" />
-    <Compile Include="Assets\Scripts\EmergencyLoad.cs" />
-    <Compile Include="Assets\Scripts\Librerias\Halp.cs" />
-    <Compile Include="Assets\Scripts\Librerias\NumeroRandom.cs" />
-    <Compile Include="Assets\Scripts\Librerias\PruebasAcelerometro.cs" />
-    <Compile Include="Assets\Scripts\Librerias\VerificarBoton.cs" />
-    <Compile Include="Assets\Scripts\Librerias\arrastrarObjetos.cs" />
-    <Compile Include="Assets\Scripts\Librerias\colicionarObjetos.cs" />
-    <Compile Include="Assets\Scripts\Librerias\posicionarObjetos.cs" />
-    <Compile Include="Assets\Scripts\Logos\GotoLogin.cs" />
-    <Compile Include="Assets\Scripts\Sombras\BoxOutline.cs" />
-    <Compile Include="Assets\Scripts\Sombras\CircleOutline.cs" />
-    <Compile Include="Assets\Scripts\Sombras\ModifiedShadow.cs" />
-    <Compile Include="Assets\Scripts\Sombras\Outline8.cs" />
-    <Compile Include="Assets\Scripts\WorldSelect\World_Controller_02.cs" />
-    <None Include="Assets\Scripts\Controllers\JSON\readme.txt" />
-    <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Networking">
-      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.PlaymodeTestsRunner">
-      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Analytics">
-      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.HoloLens">
-      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.VR">
-      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
-    </Reference>
+     <Compile Include="Assets\Scripts\Actividades\Actividad01\Actividad_01A\Act_1AController.cs" />
+     <Compile Include="Assets\Scripts\Actividades\Actividad01\Actividad_01B\Act_1BController.cs" />
+     <Compile Include="Assets\Scripts\Actividades\Actividad01\Actividad_01C\Act_1CController.cs" />
+     <Compile Include="Assets\Scripts\Actividades\ActividadTEST\TestController.cs" />
+     <Compile Include="Assets\Scripts\Actividades\Level_Template_Control.cs" />
+     <Compile Include="Assets\Scripts\Controllers\Android.cs" />
+     <Compile Include="Assets\Scripts\Controllers\Badges.cs" />
+     <Compile Include="Assets\Scripts\Controllers\BigBoss.cs" />
+     <Compile Include="Assets\Scripts\Controllers\BigMama.cs" />
+     <Compile Include="Assets\Scripts\Controllers\Cinema.cs" />
+     <Compile Include="Assets\Scripts\Controllers\Clock.cs" />
+     <Compile Include="Assets\Scripts\Controllers\Countdown.cs" />
+     <Compile Include="Assets\Scripts\Controllers\EtapasController.cs" />
+     <Compile Include="Assets\Scripts\Controllers\Fx.cs" />
+     <Compile Include="Assets\Scripts\Controllers\Instructions.cs" />
+     <Compile Include="Assets\Scripts\Controllers\JSON\JSONObject.cs" />
+     <Compile Include="Assets\Scripts\Controllers\JSON\JSONTemplates.cs" />
+     <Compile Include="Assets\Scripts\Controllers\JSON\SimpleJSON.cs" />
+     <Compile Include="Assets\Scripts\Controllers\JSON\VectorTemplates.cs" />
+     <Compile Include="Assets\Scripts\Controllers\Lives.cs" />
+     <Compile Include="Assets\Scripts\Controllers\Loading.cs" />
+     <Compile Include="Assets\Scripts\Controllers\LoginStuff\GameManager.cs" />
+     <Compile Include="Assets\Scripts\Controllers\LoginStuff\LoginController.cs" />
+     <Compile Include="Assets\Scripts\Controllers\LoginStuff\PlayerStatistics.cs" />
+     <Compile Include="Assets\Scripts\Controllers\LoginStuff\SaveLoadPlayer.cs" />
+     <Compile Include="Assets\Scripts\Controllers\LoginStuff\Services.cs" />
+     <Compile Include="Assets\Scripts\Controllers\LoginStuff\SuperHeroLoader.cs" />
+     <Compile Include="Assets\Scripts\Controllers\MensajeAnimation.cs" />
+     <Compile Include="Assets\Scripts\Controllers\Music.cs" />
+     <Compile Include="Assets\Scripts\Controllers\Pause.cs" />
+     <Compile Include="Assets\Scripts\Controllers\PersonajeAyuda.cs" />
+     <Compile Include="Assets\Scripts\Controllers\Stars.cs" />
+     <Compile Include="Assets\Scripts\Controllers\StarsNumeric.cs" />
+     <Compile Include="Assets\Scripts\EmergencyLoad.cs" />
+     <Compile Include="Assets\Scripts\Librerias\Halp.cs" />
+     <Compile Include="Assets\Scripts\Librerias\NumeroRandom.cs" />
+     <Compile Include="Assets\Scripts\Librerias\PruebasAcelerometro.cs" />
+     <Compile Include="Assets\Scripts\Librerias\VerificarBoton.cs" />
+     <Compile Include="Assets\Scripts\Librerias\arrastrarObjetos.cs" />
+     <Compile Include="Assets\Scripts\Librerias\colicionarObjetos.cs" />
+     <Compile Include="Assets\Scripts\Librerias\posicionarObjetos.cs" />
+     <Compile Include="Assets\Scripts\Logos\GotoLogin.cs" />
+     <Compile Include="Assets\Scripts\Sombras\BoxOutline.cs" />
+     <Compile Include="Assets\Scripts\Sombras\CircleOutline.cs" />
+     <Compile Include="Assets\Scripts\Sombras\ModifiedShadow.cs" />
+     <Compile Include="Assets\Scripts\Sombras\Outline8.cs" />
+     <Compile Include="Assets\Scripts\WorldSelect\World_Controller_02.cs" />
+     <None Include="Assets\Scripts\Controllers\JSON\readme.txt" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -122,4 +127,5 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  
 </Project>
