@@ -5,6 +5,7 @@ using UnityEngine;
 public class Act_1CController : MonoBehaviour {
     BigBoss bb;
     posicionarObjetos po;
+    ColisionarObjetos co;
     public GameObject[] TodasCartas;
     public GameObject[] TodasSecuencias;
     static int numeroSecuencia;
@@ -12,6 +13,7 @@ public class Act_1CController : MonoBehaviour {
     // Use this for initialization
     void Start () {
         po = GameObject.FindWithTag("Scripts").GetComponent<posicionarObjetos>();
+        co = GameObject.FindWithTag("Scripts").GetComponent<ColisionarObjetos>();
         bb = GameObject.FindWithTag("Scripts").GetComponent<BigBoss>();
         po.guardarLocacionesTodosLosObjetos();
         numeroSecuencia = 0;      
@@ -72,17 +74,21 @@ public class Act_1CController : MonoBehaviour {
 
     }
     public void verificarEleccion(GameObject o) {
-        if (o.tag == "Verdadero")
-        {
-            numeroSecuencia++;
-            mostrarCarta();
-            ganar();
-        }
-        else {
+        Debug.Log(o.name);
+        co.detectarColision(o);
+        if (co.Tocado) {
+            if (co.Acertado)
+            {
+                Debug.Log("LO LOGRASTE");
 
-            perder();
+            }
+            else
+            {
+                Debug.Log("BUUUU");
+            }
         }
-
+       
+        co.reiniciarCollision();
     }
     void ganar()
     {

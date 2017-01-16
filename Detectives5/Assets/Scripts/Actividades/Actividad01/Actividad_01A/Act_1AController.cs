@@ -27,7 +27,7 @@ public class Act_1AController : MonoBehaviour {
     }
 
     void iniciar() {       
-        Invoke("deshabilitarCartas", 6f);    
+        Invoke("deshabilitarCartas", 0f);    
     }
 
     void deshabilitarCartas() {
@@ -35,13 +35,14 @@ public class Act_1AController : MonoBehaviour {
         {
             TodasCartas[i].SetActive(false);
         }
+        Debug.Log("SE DESHABILITAN LAS CARTAS");
     }
     public void abrirCarta() {
-       
+        botonCarta.SetActive(false);
         TodasCartas[numeroCartas[numeroInicial]].gameObject.SetActive(true);
         TodasCartas[numeroCartas[numeroInicial]].GetComponent<Animator>().SetTrigger("Carta_On");
         Invoke("habilitarInteractable", 1f);
-        Invoke("moverCarta", 1f);
+      
     }
     void deshabilitarInteractable()
     {
@@ -83,8 +84,11 @@ public class Act_1AController : MonoBehaviour {
     public void cerrarCarta()
     {
         TodasCartas[numeroCartas[numeroInicial]].GetComponent<Animator>().SetTrigger("Carta_Off");
-        Debug.Log("se cierra la carta");
+     
+        Invoke("iniciar", 3f);
+        Invoke("moverCarta", 3f);
         numeroInicial++;
+  
     }
 
     public void verificarEleccion(Button b) {
@@ -99,15 +103,15 @@ public class Act_1AController : MonoBehaviour {
         }
     }
     public void moverCarta() {
+     
         botonCarta.GetComponent<Animator>().enabled = false;
         int x=Random.Range(-216,312);
          x = Random.Range(-216, 312);
         int y = Random.Range(-240, -168);
          y = Random.Range(-240, -168);
-        Debug.Log(x+" , "+y);
-        Debug.Log("Se mueve la carta");
         botonCarta.GetComponent<RectTransform>().localPosition = new Vector3(x,y,0);
         botonCarta.GetComponent<Animator>().enabled = true;
+        botonCarta.SetActive(true);
 
     }
     void ganar()
@@ -117,7 +121,7 @@ public class Act_1AController : MonoBehaviour {
             if (bb.StarWon())
             {
                 deshabilitarInteractable();          
-                iniciar();
+              
 
             }
         }
