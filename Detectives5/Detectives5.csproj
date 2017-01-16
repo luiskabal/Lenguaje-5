@@ -52,6 +52,9 @@
     <Reference Include="UnityEngine">
       <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
@@ -66,6 +69,9 @@
     </Reference>
     <Reference Include="UnityEngine.HoloLens">
       <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VR">
       <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
@@ -109,6 +115,7 @@
     <Compile Include="Assets\Scripts\Controllers\Stars.cs" />
     <Compile Include="Assets\Scripts\Controllers\StarsNumeric.cs" />
     <Compile Include="Assets\Scripts\EmergencyLoad.cs" />
+    <Compile Include="Assets\Scripts\Librerias\ColisionarObjetos.cs" />
     <Compile Include="Assets\Scripts\Librerias\Halp.cs" />
     <Compile Include="Assets\Scripts\Librerias\NumeroRandom.cs" />
     <Compile Include="Assets\Scripts\Librerias\PruebasAcelerometro.cs" />
