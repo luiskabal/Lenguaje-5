@@ -41,10 +41,7 @@ public posicionarObjetos po;
 
     // Update is called once per frame
     void Update() {
-        if (hit != null&&hit.Length>1&&hit.Length<=2) {
-            Debug.Log(Colision.name);
-        }
-    }
+          }
     void AgrandarColision(GameObject o) {
         checkRadius = o.GetComponent<BoxCollider2D>().bounds;
         Vector2 originPoint = (Vector2)o.gameObject.transform.position;
