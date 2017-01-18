@@ -41,44 +41,56 @@ public class World_Controller_02 : MonoBehaviour
         //60 en total
 
         int cuenta = 0;
-        bool[] comprobador = new bool[5];
+        bool[] comprobador = new bool[7];
 
-        for (int i = 0; i < 54; i++)
+        for (int i = 0; i < 42; i++)
         {
-            if (i < 12)
+            if (i < 6)
             {
                 comprobador[0] = comprobador[0] && System.Convert.ToBoolean(etapas_lista[i]);
                 Debug.Log(etapas_lista[i]);
             }
-            else if (i < 24)
+            else if (i < 12)
             {
                 comprobador[1] = comprobador[1] && System.Convert.ToBoolean(etapas_lista[i]);
             }
-            else if (i < 30)
+            else if (i < 18)
             {
                 comprobador[2] = comprobador[2] && System.Convert.ToBoolean(etapas_lista[i]);
             }
-            else if (i < 42)
+            else if (i < 24)
             {
                 comprobador[3] = comprobador[3] && System.Convert.ToBoolean(etapas_lista[i]);
             }
-            else if (i < 54)
+            else if (i < 30)
             {
                 comprobador[4] = comprobador[4] && System.Convert.ToBoolean(etapas_lista[i]);
             }
+            else if (i < 36)
+            {
+                comprobador[5] = comprobador[4] && System.Convert.ToBoolean(etapas_lista[i]);
+            }
+            else if (i < 42)
+            {
+                comprobador[6] = comprobador[4] && System.Convert.ToBoolean(etapas_lista[i]);
+            }
         }
 
-        cuenta = comprobador[0] ? 24 : 12;
+        cuenta = comprobador[0] ? 12 : 6;
         if(comprobador[1])
-            cuenta = comprobador[1] ? 30 : 24;
+            cuenta = comprobador[1] ? 18 : 12;
         if (comprobador[2])
-            cuenta = comprobador[2] ? 42 : 30;
+            cuenta = comprobador[2] ? 24 : 18;
         if (comprobador[3])
-            cuenta = comprobador[3] ? 54 : 42;
+            cuenta = comprobador[3] ? 30 : 24;
         if (comprobador[4])
-            cuenta = comprobador[4] ? 60 : 54;
+            cuenta = comprobador[4] ? 36 : 30;
+        if (comprobador[5])
+            cuenta = comprobador[4] ? 42 : 36;
+        if (comprobador[6])
+            cuenta = comprobador[4] ? 45 : 45;
 
-        for (int i = 0; i < 60; i++)
+        for (int i = 0; i < 45; i++)
         {
             logrados[i] = System.Convert.ToBoolean(etapas_lista[i]);
 
