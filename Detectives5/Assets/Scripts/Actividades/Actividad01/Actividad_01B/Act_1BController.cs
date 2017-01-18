@@ -184,8 +184,8 @@ public class Act_1BController : MonoBehaviour {
    
         TodasSecuencias[numeroSecuencia].gameObject.SetActive(true);
         TodasSecuencias[numeroSecuencia].gameObject.GetComponent<Animator>().SetTrigger("Carta_On");
-        numerarTextos();
-        Invoke("desaparecerTodasCartas", 1f);
+        numerarTextos();        
+        Invoke("desaparecerTodasCartas", 0f);
     }
     public void cerrarCarta()
     {

@@ -5,16 +5,20 @@ using UnityEngine;
 public class Act_1CController : MonoBehaviour {
     BigBoss bb;
     posicionarObjetos po;
+    ColisionarObjetos co;
     public GameObject[] TodasCartas;
     public GameObject[] TodasSecuencias;
     static int numeroSecuencia;
+    static int numeroGanadas;
 
     // Use this for initialization
     void Start () {
         po = GameObject.FindWithTag("Scripts").GetComponent<posicionarObjetos>();
+        co = GameObject.FindWithTag("Scripts").GetComponent<ColisionarObjetos>();
         bb = GameObject.FindWithTag("Scripts").GetComponent<BigBoss>();
         po.guardarLocacionesTodosLosObjetos();
-        numeroSecuencia = 0;      
+        numeroSecuencia = 0;
+        numeroGanadas = 0;
         desaparecerTodasCartas();
         mostrarCarta();
        
@@ -37,6 +41,15 @@ public class Act_1CController : MonoBehaviour {
 
         Invoke("guardarPosiciones",1f);
         Invoke("habilitarMovimiento", 1.1f);
+        enumerarVeces();
+    }
+    void deshabilitarTodasSecuencias() {
+        for (int i=0;i<TodasSecuencias.Length;i++) {
+            TodasSecuencias[i].SetActive(false);
+        }
+    }
+    public void cerrarCarta() {
+        TodasSecuencias[numeroSecuencia].gameObject.GetComponent<Animator>().SetTrigger("Carta_Off");
     }
     void deshabilitarMovimiento()
     {
@@ -66,23 +79,38 @@ public class Act_1CController : MonoBehaviour {
             else
             {
                 TodasCartas[2].gameObject.SetActive(true);
-
             }
         }
-
     }
     public void verificarEleccion(GameObject o) {
-        if (o.tag == "Verdadero")
-        {
-            numeroSecuencia++;
-            mostrarCarta();
-            ganar();
-        }
-        else {
 
-            perder();
-        }
+        co.detectarColision(o);
+        if (co.Tocado) {
+            if (co.Acertado)
+            {
+                numeroGanadas--;
+                Debug.Log(numeroGanadas);
+                if (numeroGanadas==0) {
+                    ganar();
+                }
 
+            }
+            else
+            {
+                perder();
+            }
+        }
+       
+        co.reiniciarCollision();
+    }
+
+    void enumerarVeces() {
+        for (int i=0;i< TodasSecuencias[numeroSecuencia].gameObject.transform.GetChild(1).childCount;i++) {
+        
+            if (TodasSecuencias[numeroSecuencia].gameObject.transform.GetChild(1).GetChild(i).GetComponent<BoxCollider2D>()!=null) {
+                numeroGanadas++;
+            }
+        }
     }
     void ganar()
     {
@@ -90,6 +118,9 @@ public class Act_1CController : MonoBehaviour {
         {
             if (bb.StarWon())
             {
+                cerrarCarta();
+                numeroSecuencia++;
+                mostrarCarta();
             }
         }
     }
@@ -103,8 +134,5 @@ public class Act_1CController : MonoBehaviour {
         {
             TodasCartas[i].SetActive(false);
         }
-
     }
-
-
 }

@@ -7,10 +7,10 @@ using UnityEngine.EventSystems;
 public class arrastrarObjetos : MonoBehaviour {
     public bool dragging = false;
     private float distance;
-    colicionarObjetos co;
+    ColisionarObjetos co;
     // Use this for initialization
     void Start() {
-        co = GameObject.FindWithTag("Scripts").GetComponent<colicionarObjetos>();
+        co = GameObject.FindWithTag("Scripts").GetComponent<ColisionarObjetos>();
     }
 
     // Update is called once per frame
@@ -23,6 +23,8 @@ public class arrastrarObjetos : MonoBehaviour {
         dragging = true;
         achicarColliders();
         eliminarOtrosColliders();
+      
+  
     }
     void OnMouseDrag() {
         if (dragging)
@@ -35,14 +37,14 @@ public class arrastrarObjetos : MonoBehaviour {
     }
 
     void OnMouseUp() {
+
         dragging = false;
-        activarColliders();
-        co.detectarColision(this.gameObject);
-    }
+        Invoke("activarColliders",0.1f);
+      }
 
     void achicarColliders()
     {
-        this.gameObject.GetComponent<BoxCollider2D>().size = new Vector2(10f, 10f);
+        this.gameObject.GetComponent<BoxCollider2D>().size = new Vector2(1f, 1f);
     }
     void eliminarOtrosColliders() {
         for (int i = 0; i < co.po.objetos.Length; i++)
