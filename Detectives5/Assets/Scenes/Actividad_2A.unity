@@ -167,7 +167,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 18571823}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1204025878}
+        m_MethodName: objetoSeleccionado
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 18571820}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &18571823
@@ -457,7 +468,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 86142306}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1204025878}
+        m_MethodName: objetoSeleccionado
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 86142303}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &86142306
@@ -789,7 +811,7 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 227450766}
   m_OnClick:
     m_PersistentCalls:
@@ -1130,7 +1152,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &383203247
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2342,7 +2364,7 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 767621002}
   m_OnClick:
     m_PersistentCalls:
@@ -3001,7 +3023,7 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1052015742}
   m_OnClick:
     m_PersistentCalls:
@@ -3278,6 +3300,7 @@ GameObject:
   - component: {fileID: 1204025875}
   - component: {fileID: 1204025876}
   - component: {fileID: 1204025877}
+  - component: {fileID: 1204025879}
   - component: {fileID: 1204025878}
   m_Layer: 5
   m_Name: ScriptHolder
@@ -3362,6 +3385,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09f3778da0edf6241b89d332553c4ac4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tipoOracion:
+  - "\xBFQu\xE9?"
+  - "\xBFQui\xE9n?"
+  - "\xBFPara qu\xE9?"
+  - "\xBFPara qui\xE9n?"
   Oraciones:
   - En este poema quiero contarte lo mal que me siento al robar.
   - "Se informa que en Santiago se produjo el robo de un talism\xE1n."
@@ -3373,6 +3401,16 @@ MonoBehaviour:
   - "Ni\xF1os:Vendo mis vendo bolitas de oro. -L."
   - "Padre: Junt\xE9monos a la salida del museo. Quiero contarte algo."
   - "Perfume \"An\xEDmate\", el perfume pensado en el hombre."
+  AlternativasOracion:
+  - Un Poema
+  - Noticia
+  - Aviso publicitario
+  - Un Poema
+  - Noticia
+  - Aviso publicitario
+  - Un Poema
+  - Noticia
+  - Aviso publicitario
   Objetos:
   - {fileID: 533114078}
   - {fileID: 817286683}
@@ -3384,9 +3422,157 @@ MonoBehaviour:
   - {fileID: 18571820}
   - {fileID: 86142303}
   - {fileID: 1797835514}
+  Alternativas:
+  - {fileID: 767620999}
+  - {fileID: 227450763}
+  - {fileID: 1052015739}
   Preguntas: {fileID: 1611670247}
   textoPregunta: {fileID: 439895460}
   Luz: {fileID: 383203246}
+--- !u!114 &1204025879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1204025874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7862089e1d9818e4998aed5dde81499d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  QUE_alternativas0:
+  - Un poema
+  - Noticia
+  - Aviso publicitario
+  QUE_alternativas1:
+  - Noticia
+  - Aviso publicitario
+  - Receta
+  QUE_alternativas2:
+  - Aviso publicitario
+  - Receta
+  - Cuento
+  QUE_alternativas3:
+  - Receta
+  - Cuento
+  - Carta
+  QUE_alternativas4:
+  - Cuento
+  - Un poema
+  - Noticia
+  QUE_alternativas5:
+  - Carta
+  - Noticia
+  - Receta
+  QUE_alternativas6:
+  - Aviso publicitario
+  - Noticia
+  - Cuento
+  QUE_alternativas7:
+  - Aviso publicitario
+  - Un poema
+  - Noticia
+  QUE_alternativas8:
+  - Mensaje
+  - Carta
+  - Cuento
+  QUE_alternativas9:
+  - Aviso publicitario
+  - Mensaje
+  - Carta
+  Quien_alternativas0: []
+  Quien_alternativas1: []
+  Quien_alternativas2: []
+  Quien_alternativas3: []
+  Quien_alternativas4: []
+  Quien_alternativas5:
+  - "Ladr\xF3n"
+  - L
+  - "Perfumes \"An\xEDmate\""
+  Quien_alternativas6:
+  - "El ladr\xF3n"
+  - L
+  - "Perfumes \"An\xEDmate\""
+  Quien_alternativas7:
+  - L
+  - "Perfumes \"An\xEDmate\""
+  - Ladron
+  Quien_alternativas8:
+  - L
+  - "Perfumes \"An\xEDmate\""
+  - Ladron
+  Quien_alternativas9:
+  - "Perfumes \"An\xEDmate\""
+  - Ladron
+  - L
+  PARAQUE_alternativas0:
+  - Demostrar sentimientos
+  - Informar
+  - Vender un producto
+  PARAQUE_alternativas1:
+  - Informar
+  - Vender un producto
+  - Dar instrucciones
+  PARAQUE_alternativas2:
+  - Vender un producto
+  - Dar instrucciones
+  - Demostrar sentimientos
+  PARAQUE_alternativas3:
+  - Dar instrucciones
+  - Demostrar Sentimientos
+  - Informar
+  PARAQUE_alternativas4: []
+  PARAQUE_alternativas5:
+  - Contar algo
+  - Vender un producto
+  - Demostrar sentimientos
+  PARAQUE_alternativas6:
+  - Vender un producto
+  - Informar algo
+  - Contar algo
+  PARAQUE_alternativas7:
+  - Vender un producto
+  - Demostrar sentimientos
+  - Dar instrucciones
+  PARAQUE_alternativas8:
+  - Informar algo
+  - Vender un producto
+  - Contar algo
+  PARAQUE_alternativas9:
+  - Vender un producto
+  - Informar
+  - Contar algo
+  PARAQUIEN_alternativas0: []
+  PARAQUIEN_alternativas1: []
+  PARAQUIEN_alternativas2:
+  - "El ladr\xF3n"
+  - La familia
+  - Mujeres
+  PARAQUIEN_alternativas3:
+  - La familia
+  - Mujeres
+  - "Los ni\xF1os"
+  PARAQUIEN_alternativas4: []
+  PARAQUIEN_alternativas5:
+  - La familia
+  - Mujeres
+  - Hombre
+  PARAQUIEN_alternativas6:
+  - Mujeres
+  - La familia
+  - Padre
+  PARAQUIEN_alternativas7:
+  - "Los ni\xF1os"
+  - Padre
+  - Hombre
+  PARAQUIEN_alternativas8:
+  - Padre
+  - Hombre
+  - La familia
+  PARAQUIEN_alternativas9:
+  - Hombre
+  - Mujeres
+  - "El Ladr\xF3n"
 --- !u!1 &1220738519
 GameObject:
   m_ObjectHideFlags: 0
@@ -4497,7 +4683,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1797835517}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1204025878}
+        m_MethodName: objetoSeleccionado
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1797835514}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1797835517

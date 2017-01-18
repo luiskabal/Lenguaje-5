@@ -50,6 +50,7 @@
      <Compile Include="Assets\Scripts\Actividades\Actividad01\Actividad_01B\Act_1BController.cs" />
      <Compile Include="Assets\Scripts\Actividades\Actividad01\Actividad_01C\Act_1CController.cs" />
      <Compile Include="Assets\Scripts\Actividades\Actividad02\Actividad_02A\Act_2AController.cs" />
+     <Compile Include="Assets\Scripts\Actividades\Actividad02\Actividad_02A\GeneradorAlternativas.cs" />
      <Compile Include="Assets\Scripts\Actividades\ActividadTEST\TestController.cs" />
      <Compile Include="Assets\Scripts\Actividades\Level_Template_Control.cs" />
      <Compile Include="Assets\Scripts\Controllers\Android.cs" />
@@ -96,9 +97,6 @@
      <Compile Include="Assets\Scripts\Sombras\Outline8.cs" />
      <Compile Include="Assets\Scripts\WorldSelect\World_Controller_02.cs" />
      <None Include="Assets\Scripts\Controllers\JSON\readme.txt" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -113,9 +111,6 @@
  </Reference>
  <Reference Include="UnityEngine.HoloLens">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Purchasing">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.VR">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
