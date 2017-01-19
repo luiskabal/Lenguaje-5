@@ -13,9 +13,6 @@ public class Act_2AController : MonoBehaviour {
     BigBoss bb;
     public string[] tipoOracion;
     public string[] Oraciones;
-    public string[] AlternativasOracion;
-
-
     public GameObject[] Objetos;
     public GameObject[] Alternativas;
     public GameObject Preguntas;
@@ -32,9 +29,6 @@ public class Act_2AController : MonoBehaviour {
         generarOracionRandom();
         Invoke("apagarLuz", 12f);
         numeroPartida = 0;
-        Debug.Log(ga.QUE_alternativas0[0]);
-      
-
     }
     public void objetoSeleccionado(GameObject o) {
         falsearAlternativas();
@@ -383,6 +377,7 @@ public class Act_2AController : MonoBehaviour {
             ganar();
         }else
         {
+            perder();
         }
 
     }

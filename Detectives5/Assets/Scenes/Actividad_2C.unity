@@ -167,7 +167,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 18571823}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1204025878}
+        m_MethodName: objetoSeleccionado
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 18571820}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &18571823
@@ -389,7 +400,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 86142306}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1204025878}
+        m_MethodName: objetoSeleccionado
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 86142303}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &86142306
@@ -726,7 +748,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 240457992}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1204025878}
+        m_MethodName: objetoSeleccionado
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 240457989}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &240457992
@@ -918,7 +951,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 291756184}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1204025878}
+        m_MethodName: verificarRespuesta
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 291756181}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &291756184
@@ -1684,7 +1728,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 533114081}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1204025878}
+        m_MethodName: objetoSeleccionado
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 533114078}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &533114081
@@ -1965,7 +2020,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 746617835}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1204025878}
+        m_MethodName: objetoSeleccionado
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 746617832}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &746617835
@@ -2163,7 +2229,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 817286686}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1204025878}
+        m_MethodName: objetoSeleccionado
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 817286683}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &817286686
@@ -2426,7 +2503,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 872258611}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1204025878}
+        m_MethodName: verificarRespuesta
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 872258608}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &872258611
@@ -2894,9 +2982,11 @@ GameObject:
   - component: {fileID: 1204025875}
   - component: {fileID: 1204025876}
   - component: {fileID: 1204025877}
+  - component: {fileID: 1204025878}
+  - component: {fileID: 1204025879}
   m_Layer: 5
   m_Name: ScriptHolder
-  m_TagString: Untagged
+  m_TagString: Scripts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2942,8 +3032,8 @@ MonoBehaviour:
   etapas: {fileID: 400272595}
   Instrucciones: {fileID: 849471471}
   otrosAudios: []
-  stars: 4
-  hitsToStar: 2
+  stars: 7
+  hitsToStar: 1
   ShowAlertOnStar: 1
   showCounter: 1
   muestraTiempo: 1
@@ -2966,6 +3056,195 @@ MonoBehaviour:
   bigBossScript: {fileID: 1204025876}
   messages:
   - Funciona actividad culia.
+--- !u!114 &1204025878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1204025874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09f3778da0edf6241b89d332553c4ac4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tipoOracion:
+  - "\xBFQu\xE9?"
+  - "\xBFQui\xE9n?"
+  - "\xBFPara qu\xE9?"
+  - "\xBFPara qui\xE9n?"
+  Oraciones:
+  - En este poema quiero contarte lo mal que me siento al robar.
+  - "Se informa que en Santiago se produjo el robo de un talism\xE1n."
+  - "Vendo talism\xE1n brillante y macizo."
+  - Para preparar unos deliciosos panqueques, se requiere...
+  - "Hab\xEDa una vez un ladr\xF3n arrepentido..."
+  - Querida familia, es muy probable que me atrapen.
+  - "Se\xF1ora, compre este talism\xE1n en mi tienda ubicada en el centro."
+  - "Ni\xF1os:Vendo mis vendo bolitas de oro. -L."
+  - "Padre: Junt\xE9monos a la salida del museo. Quiero contarte algo."
+  - "Perfume \"An\xEDmate\", el perfume pensado en el hombre."
+  Objetos:
+  - {fileID: 533114078}
+  - {fileID: 817286683}
+  - {fileID: 1279843707}
+  - {fileID: 1794337809}
+  - {fileID: 746617832}
+  - {fileID: 1409614049}
+  - {fileID: 240457989}
+  - {fileID: 18571820}
+  - {fileID: 86142303}
+  - {fileID: 1797835514}
+  Alternativas:
+  - {fileID: 2000561519}
+  - {fileID: 872258608}
+  - {fileID: 291756181}
+  Preguntas: {fileID: 1483045306}
+  textoPregunta: {fileID: 1308653241}
+  Luz: {fileID: 1124981038}
+--- !u!114 &1204025879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1204025874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7862089e1d9818e4998aed5dde81499d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  QUE_alternativas0:
+  - Un poema
+  - Noticia
+  - Aviso publicitario
+  QUE_alternativas1:
+  - Noticia
+  - Aviso publicitario
+  - Receta
+  QUE_alternativas2:
+  - Aviso publicitario
+  - Receta
+  - Cuento
+  QUE_alternativas3:
+  - Receta
+  - Cuento
+  - Carta
+  QUE_alternativas4:
+  - Cuento
+  - Un poema
+  - Noticia
+  QUE_alternativas5:
+  - Carta
+  - Noticia
+  - Receta
+  QUE_alternativas6:
+  - Aviso publicitario
+  - Noticia
+  - Cuento
+  QUE_alternativas7:
+  - Aviso publicitario
+  - Un poema
+  - Noticia
+  QUE_alternativas8:
+  - Mensaje
+  - Carta
+  - Cuento
+  QUE_alternativas9:
+  - Aviso publicitario
+  - Mensaje
+  - Carta
+  Quien_alternativas0: []
+  Quien_alternativas1: []
+  Quien_alternativas2: []
+  Quien_alternativas3: []
+  Quien_alternativas4: []
+  Quien_alternativas5:
+  - "Ladr\xF3n"
+  - L
+  - "Perfumes \"An\xEDmate\""
+  Quien_alternativas6:
+  - "El ladr\xF3n"
+  - L
+  - "Perfumes \"An\xEDmate\""
+  Quien_alternativas7:
+  - L
+  - "Perfumes \"An\xEDmate\""
+  - Ladron
+  Quien_alternativas8:
+  - L
+  - "Perfumes \"An\xEDmate\""
+  - Ladron
+  Quien_alternativas9:
+  - "Perfumes \"An\xEDmate\""
+  - Ladron
+  - L
+  PARAQUE_alternativas0:
+  - Demostrar sentimientos
+  - Informar
+  - Vender un producto
+  PARAQUE_alternativas1:
+  - Informar
+  - Vender un producto
+  - Dar instrucciones
+  PARAQUE_alternativas2:
+  - Vender un producto
+  - Dar instrucciones
+  - Demostrar sentimientos
+  PARAQUE_alternativas3:
+  - Dar instrucciones
+  - Demostrar Sentimientos
+  - Informar
+  PARAQUE_alternativas4: []
+  PARAQUE_alternativas5:
+  - Contar algo
+  - Vender un producto
+  - Demostrar sentimientos
+  PARAQUE_alternativas6:
+  - Vender un producto
+  - Informar algo
+  - Contar algo
+  PARAQUE_alternativas7:
+  - Vender un producto
+  - Demostrar sentimientos
+  - Dar instrucciones
+  PARAQUE_alternativas8:
+  - Informar algo
+  - Vender un producto
+  - Contar algo
+  PARAQUE_alternativas9:
+  - Vender un producto
+  - Informar
+  - Contar algo
+  PARAQUIEN_alternativas0: []
+  PARAQUIEN_alternativas1: []
+  PARAQUIEN_alternativas2:
+  - "El ladr\xF3n"
+  - La familia
+  - Mujeres
+  PARAQUIEN_alternativas3:
+  - La familia
+  - Mujeres
+  - "Los ni\xF1os"
+  PARAQUIEN_alternativas4: []
+  PARAQUIEN_alternativas5:
+  - La familia
+  - Mujeres
+  - Hombre
+  PARAQUIEN_alternativas6:
+  - Mujeres
+  - La familia
+  - Padre
+  PARAQUIEN_alternativas7:
+  - "Los ni\xF1os"
+  - Padre
+  - Hombre
+  PARAQUIEN_alternativas8:
+  - Padre
+  - Hombre
+  - La familia
+  PARAQUIEN_alternativas9:
+  - Hombre
+  - Mujeres
+  - "El Ladr\xF3n"
 --- !u!1 &1220738519
 GameObject:
   m_ObjectHideFlags: 0
@@ -3164,7 +3443,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1279843710}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1204025878}
+        m_MethodName: objetoSeleccionado
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1279843707}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1279843710
@@ -3436,7 +3726,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1409614052}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1204025878}
+        m_MethodName: objetoSeleccionado
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1409614049}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1409614052
@@ -4062,7 +4363,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1794337812}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1204025878}
+        m_MethodName: objetoSeleccionado
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1794337809}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1794337812
@@ -4186,7 +4498,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1797835517}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1204025878}
+        m_MethodName: objetoSeleccionado
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1797835514}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1797835517
@@ -4666,7 +4989,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2000561522}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1204025878}
+        m_MethodName: verificarRespuesta
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2000561519}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &2000561522
