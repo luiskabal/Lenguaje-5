@@ -1242,7 +1242,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1672752887}
         m_MethodName: DoLoadLevel
         m_Mode: 5
         m_Arguments:
@@ -1521,6 +1521,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1672752887 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11441192, guid: 05cfb9049eb627546ac2530be99ad1b9,
+    type: 2}
+  m_PrefabInternal: {fileID: 950578802}
+  m_Script: {fileID: 11500000, guid: b486a5792ef0ee9499d6ac656f8327a9, type: 3}
 --- !u!1 &1720408183
 GameObject:
   m_ObjectHideFlags: 0

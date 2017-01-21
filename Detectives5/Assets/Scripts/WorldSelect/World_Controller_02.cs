@@ -8,6 +8,7 @@ public class World_Controller_02 : MonoBehaviour
     public string default_name = "ACT_";
     public Loading loader;
     public Button[] etapa;
+    public GameObject[] mundos;
 
     private bool[] desbloqueos = new bool[60];
     private bool[] logrados = new bool[60];
@@ -111,6 +112,21 @@ public class World_Controller_02 : MonoBehaviour
         }
     }
 
+    public void DesbloqueaMundos(int target)
+    {
+        for (int i = 0; i < mundos.Length; i++)
+        {
+            if(i != target)
+            {
+                mundos[i].SetActive(false);
+            }
+            else
+            {
+                mundos[i].SetActive(true);
+            }
+        }
+    }
+
     public void DesbloquearEtapa(int requisito)
     {
         bool comprobador = true;
@@ -127,13 +143,15 @@ public class World_Controller_02 : MonoBehaviour
         etapaTarget = 0;
         targetEtapas = requisito;
         aplicarDesbloqueo = comprobador;
-        if (requisito == 24 || requisito == 54)
+
+        Debug.Log("Go Desbloqueo");
+        if (requisito != 42)
         {
             Invoke("AplicarDesbloqueo06", .1f);
         }
         else
         {
-            Invoke("AplicarDesbloqueo12", .1f);
+            Invoke("AplicarDesbloqueo03", .1f);
         }
     }
 
@@ -151,9 +169,9 @@ public class World_Controller_02 : MonoBehaviour
         }
     }
 
-    private void AplicarDesbloqueo12()
+    private void AplicarDesbloqueo03()
     {
-        if (etapaTarget < 12)
+        if (etapaTarget < 3)
         {
             Debug.Log("Salta" + aplicarDesbloqueo + " " + etapaTarget);
             etapa[targetEtapas + etapaTarget].interactable = aplicarDesbloqueo;
@@ -161,7 +179,7 @@ public class World_Controller_02 : MonoBehaviour
             Debug.Log(etapa[targetEtapas + etapaTarget].interactable);
             etapaTarget++;
 
-            AplicarDesbloqueo12();
+            AplicarDesbloqueo03();
         }
     }
 }
