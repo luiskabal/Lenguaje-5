@@ -7,7 +7,8 @@ using System.Collections.Generic;
 
 public enum Level { LevelA, LevelB, LevelC };
 
-public class Halp : MonoBehaviour {
+public class Halp : MonoBehaviour
+{
 
     public static string cambioUnidades(int numeroNumero)
     {
@@ -40,7 +41,7 @@ public class Halp : MonoBehaviour {
         {
             return "00";
         }
-        else if(numeroNumero == 0 && !doublezero)
+        else if (numeroNumero == 0 && !doublezero)
         {
             return "0";
         }
@@ -89,7 +90,7 @@ public class Halp : MonoBehaviour {
         }
         else
         {
-            for (int i = 1; i < size+1; i++)
+            for (int i = 1; i < size + 1; i++)
             {
                 //Debug.Log("Created Element " + i);
                 theArray[i - 1] = i;
@@ -178,7 +179,7 @@ public class Halp : MonoBehaviour {
             {
                 int number = UnityEngine.Random.Range(target - tolerance, target + tolerance);
 
-                while (VerificationList.Contains(number) || number < 1 )
+                while (VerificationList.Contains(number) || number < 1)
                 {
                     number = UnityEngine.Random.Range(target - tolerance, target + tolerance);
 
@@ -201,7 +202,7 @@ public class Halp : MonoBehaviour {
     public static int[] GetDivisores(int numero, int desde, int hasta)
     {
         List<int> listaDivisores = new List<int>();
-        
+
         for (int i = desde; i <= hasta; i++)
         {
             if (numero % i == 0)
@@ -258,6 +259,18 @@ public class Halp : MonoBehaviour {
         string paragraphSeparator = ((char)0x2029).ToString();
 
         return value.Replace("\r\n", string.Empty).Replace("\n", string.Empty).Replace("\r", string.Empty).Replace(lineSeparator, string.Empty).Replace(paragraphSeparator, string.Empty);
+    }
+
+    public static int factorial(int number)
+    {
+        int fact = 1;
+        
+        for (int i = 1; i <= number; i++)
+        {
+            fact *= i;
+        }
+        
+        return fact;
     }
 
 }

@@ -55,9 +55,6 @@
     <Reference Include="UnityEngine">
       <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
@@ -73,9 +70,6 @@
     <Reference Include="UnityEngine.HoloLens">
       <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Purchasing">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Purchasing.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.VR">
       <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
     </Reference>
@@ -89,6 +83,8 @@
     <Compile Include="Assets\Scripts\Actividades\Actividad01\Actividad_01C\Act_1CController.cs" />
     <Compile Include="Assets\Scripts\Actividades\Actividad02\Actividad_02A\Act_2AController.cs" />
     <Compile Include="Assets\Scripts\Actividades\Actividad02\Actividad_02A\GeneradorAlternativas.cs" />
+    <Compile Include="Assets\Scripts\Actividades\Actividad03\Assets_03.cs" />
+    <Compile Include="Assets\Scripts\Actividades\Actividad03\Control_Lvl_03.cs" />
     <Compile Include="Assets\Scripts\Actividades\ActividadTEST\TestController.cs" />
     <Compile Include="Assets\Scripts\Actividades\Level_Template_Control.cs" />
     <Compile Include="Assets\Scripts\Controllers\Android.cs" />

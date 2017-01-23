@@ -266,6 +266,11 @@ public class BigBoss : MonoBehaviour {
         return Estrellas.GetWonStars();
     }
 
+    public int GetStarsLength()
+    {
+        return stars;
+    }
+
     public void PlayDefaultMusic()
     {
         Musica.PlaySingle(0);
