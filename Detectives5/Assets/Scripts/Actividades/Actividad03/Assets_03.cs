@@ -9,11 +9,82 @@ public class Assets_03 : MonoBehaviour
     public Sprite[] Criminal_Faces;
     public Image[] Criminals;
     public Text Cop;
-    public Animator Criminals_Actions;
+    public Animator Curtain;
     public Animator Cop_Actions;
+    public Animator[] Criminal_Text;
+    public Animator Cop_Text;
 
 	private string current_good_word;
 	private string[] words;
+
+    //ANIMACIONES
+    public void CopTalk()
+    {
+        Cop_Text.SetTrigger("ON");
+    }
+
+	public void CopTalk(float delay)
+	{
+		Invoke("CopTalk", delay);
+	}
+
+    public void CopTalkOff()
+    {
+        Cop_Text.SetTrigger("OFF");
+    }
+
+	public void CopTalkOff(float delay)
+	{
+		Invoke("CopTalkOff", delay);
+	}
+
+    public void CriminalsTalk()
+    {
+        for (int i = 0; i < Criminal_Text.Length; i++)
+        {
+            Criminal_Text[i].SetTrigger("ON");
+        }
+    }
+
+    public void CriminalsTalk(float delay)
+    {
+        Invoke("CriminalsTalk", delay);
+    }
+
+    public void CriminalsTalkOff()
+    {
+        for (int i = 0; i < Criminal_Text.Length; i++)
+        {
+            Criminal_Text[i].SetTrigger("OFF");
+        }
+    }
+
+    public void CriminalsTalkOff(float delay)
+    {
+        Invoke("CriminalsTalkOff", delay);
+    }
+
+    public void ShowCriminals()
+    {
+        Curtain.SetTrigger("ON");
+    }
+
+	public void ShowCriminals(float delay)
+	{
+		Invoke("ShowCriminals", delay);
+	}
+
+    public void HideCriminals()
+    {
+        Curtain.SetTrigger("OFF");
+    }
+
+	public void HideCriminals(float delay)
+	{
+		Invoke("HideCriminals", delay);
+	}
+
+    //FIN ANIMACIONES
 
     public void SetCriminals(int[] identity)
     {
@@ -23,36 +94,6 @@ public class Assets_03 : MonoBehaviour
         }
     }
 
-    public void CopTalk()
-    {
-        Cop_Actions.SetTrigger("Talk");
-    }
-
-	public void CopTalk(float delay)
-	{
-		Invoke("CopTalk", delay);
-	}
-
-    public void CriminalsTalk()
-    {
-        Cop_Actions.SetTrigger("Talk");
-    }
-
-    public void CriminalsTalk(int delay)
-    {
-        Invoke("CriminalsTalk", delay);
-    }
-
-    public void ShowCriminals()
-    {
-        Criminals_Actions.SetTrigger("WALK");
-    }
-
-	public void ShowCriminals(float delay)
-	{
-		Invoke("ShowCriminals", delay);
-	}
-
     public void SetCriminalsWords(int phrase)
     {
         words = Criminal_Words[phrase].Split('/');
@@ -60,7 +101,7 @@ public class Assets_03 : MonoBehaviour
 
         for (int i = 0; i < Criminals.Length; i++)
         {
-            Criminals[i].GetComponentInChildren<Text>().text = words[i];
+            Criminal_Text[i].GetComponentInChildren<Text>().text = words[i];
         }
 
 		current_good_word = Good_Words[phrase];
@@ -95,7 +136,7 @@ public class Assets_03 : MonoBehaviour
 	{
 		for (int i = 0; i < Criminals.Length; i++)
 		{
-			Criminals[i].GetComponent<Button>().interactable = enable;
+			Criminal_Text[i].GetComponent<Button>().interactable = enable;
 		}
 	}
 }

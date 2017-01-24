@@ -48,10 +48,10 @@ public class Control_Lvl_03 : BigMama
     private void Randomize()
     {
         //Creación de orden de aparición de criminales
-        int qty_combinations = Halp.factorial(8) / (Halp.factorial(3) * Halp.factorial(8 - 3));
+        int qty_combinations = Halp.factorial(6) / (Halp.factorial(3) * Halp.factorial(6 - 3));
         Combination_criminals = new string[qty_combinations];
         //Crear combinatoria
-        MakeCombinations(3, 8, '/');
+        MakeCombinations(3, 6, '/');
         //Desordenarla
         Halp.ShuffleArray(Combination_criminals);
 
@@ -102,19 +102,21 @@ public class Control_Lvl_03 : BigMama
 
     private void Armador()
     {
+        Debug.Log(Combination_criminals[Master.GetStarNum()]);
         string[] orderCriminals = Combination_criminals[Master.GetStarNum()].Split('/');
 
-        int[] arrayOrder = { System.Convert.ToInt32(orderCriminals[0]),
-                             System.Convert.ToInt32(orderCriminals[1]),
-                             System.Convert.ToInt32(orderCriminals[2])
+        int[] arrayOrder = { System.Convert.ToInt32(orderCriminals[0]) - 1,
+                             System.Convert.ToInt32(orderCriminals[1]) - 1,
+                             System.Convert.ToInt32(orderCriminals[2]) - 1
                              };
 
-        Assets.SetCopWords(order[Master.GetStarNum()]);
         Assets.SetCriminals(arrayOrder);
+        Assets.SetCopWords(order[Master.GetStarNum()]);
+        Assets.SetCriminalsWords(order[Master.GetStarNum()]);
 
         Assets.ShowCriminals();
-        Assets.CriminalsTalk();
-        Assets.CopTalk();
+        Assets.CriminalsTalk(1.5f);
+        Assets.CopTalk(1);
 
         Assets.EnableButtons(true);
     }
@@ -127,16 +129,25 @@ public class Control_Lvl_03 : BigMama
         {
             if (!Master.Good())
             {
+                Assets.HideCriminals(2);
+                Assets.CriminalsTalkOff(1);
+                Assets.CopTalkOff(1);
+
                 //New problem
-                Invoke("Armador", 2);
+                Invoke("Armador", 3);
             }
         }
         else
         {
             //Bad, Life taken
             Master.Bad();
-            Assets.EnableButtons(true);
+            Invoke("ReEnableButtons", 1f);
         }
+    }
+
+    private void ReEnableButtons()
+    {
+        Assets.EnableButtons(true);
     }
 }
 
