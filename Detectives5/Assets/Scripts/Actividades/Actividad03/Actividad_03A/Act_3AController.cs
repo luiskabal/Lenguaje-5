@@ -13,7 +13,8 @@ public class Act_3AController : MonoBehaviour {
     Model_3A Model3A;
     NumeroRandom nr = new NumeroRandom();
     BigBoss bb;
-    
+    public Mecanicas_3C mec;
+
 
 
     // Use this for initialization
@@ -21,6 +22,7 @@ public class Act_3AController : MonoBehaviour {
         Model3A = GameObject.FindWithTag("Scripts").GetComponent<Model_3A>();
         bb = GameObject.FindWithTag("Scripts").GetComponent<BigBoss>();
         bb.Comenzar();
+     
     }
 
     // Update is called once per frame
@@ -45,6 +47,12 @@ public class Act_3AController : MonoBehaviour {
                 {
                     Model3A.TextoPregunta.text = Model3A.Oraciones[numeroCartas[i]];
                     generarAlternativas(numeroCartas[i]);
+                    if (EtapaC)
+                    {
+                        mec= GameObject.FindWithTag("Scripts").GetComponent<Mecanicas_3C>();
+                        mec.generarArrastrables(mec.OracionesSeparadoras[numeroCartas[i]]);
+                     
+                    }
                     break;
                 }
                 else {                  
@@ -52,6 +60,7 @@ public class Act_3AController : MonoBehaviour {
                 }
             }
         }
+       
     }
     void generarAlternativas(int NumeroSeleccion) {
         todosFalsos();

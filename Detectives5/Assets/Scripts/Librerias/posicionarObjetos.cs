@@ -12,7 +12,7 @@ public class posicionarObjetos : MonoBehaviour {
 
     void Start()
     {
-
+        Debug.Log("Numero de objetos: "+ objetos.Length);
     }
     void Update()
     {

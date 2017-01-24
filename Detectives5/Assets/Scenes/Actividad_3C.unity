@@ -158,7 +158,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: que
+  m_Text: 
 --- !u!222 &12214218
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -178,6 +178,7 @@ GameObject:
   - component: {fileID: 16089606}
   - component: {fileID: 16089609}
   - component: {fileID: 16089610}
+  - component: {fileID: 16089611}
   m_Layer: 5
   m_Name: Button_6
   m_TagString: Untagged
@@ -304,6 +305,36 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 200, y: 40}
+--- !u!114 &16089611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 16089604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1204025881}
+          m_MethodName: detectarColision
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 16089604}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  delegates: []
 --- !u!1 &52922773
 GameObject:
   m_ObjectHideFlags: 0
@@ -371,7 +402,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: propiedades
+  m_Text: 
 --- !u!222 &52922776
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -853,7 +884,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Talism\xE1n"
+  m_Text: 
 --- !u!222 &231908640
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -927,7 +958,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: aseguran
+  m_Text: 
 --- !u!222 &241876700
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1155,6 +1186,7 @@ GameObject:
   - component: {fileID: 416869262}
   - component: {fileID: 416869265}
   - component: {fileID: 416869266}
+  - component: {fileID: 416869267}
   m_Layer: 5
   m_Name: Button_4
   m_TagString: Untagged
@@ -1281,6 +1313,36 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 200, y: 40}
+--- !u!114 &416869267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 416869260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1204025881}
+          m_MethodName: detectarColision
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 416869260}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  delegates: []
 --- !u!1001 &464191816
 Prefab:
   m_ObjectHideFlags: 0
@@ -1749,7 +1811,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "ten\xEDa"
+  m_Text: 
 --- !u!222 &803588234
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2041,7 +2103,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: el
+  m_Text: 
 --- !u!222 &873573035
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2061,6 +2123,7 @@ GameObject:
   - component: {fileID: 892464507}
   - component: {fileID: 892464510}
   - component: {fileID: 892464511}
+  - component: {fileID: 892464512}
   m_Layer: 5
   m_Name: Button_5
   m_TagString: Untagged
@@ -2187,6 +2250,36 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 200, y: 40}
+--- !u!114 &892464512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 892464505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1204025881}
+          m_MethodName: detectarColision
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 892464505}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  delegates: []
 --- !u!1001 &928978176
 Prefab:
   m_ObjectHideFlags: 0
@@ -2358,6 +2451,7 @@ GameObject:
   - component: {fileID: 987377806}
   - component: {fileID: 987377809}
   - component: {fileID: 987377810}
+  - component: {fileID: 987377811}
   m_Layer: 5
   m_Name: Button_3
   m_TagString: Untagged
@@ -2484,6 +2578,36 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 200, y: 40}
+--- !u!114 &987377811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 987377804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1204025881}
+          m_MethodName: detectarColision
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 987377804}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  delegates: []
 --- !u!1 &1006273004
 GameObject:
   m_ObjectHideFlags: 0
@@ -3146,7 +3270,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: curativas
+  m_Text: 
 --- !u!222 &1069960605
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3388,6 +3512,7 @@ MonoBehaviour:
   EtapaA: 0
   EtapaB: 0
   EtapaC: 1
+  mec: {fileID: 0}
 --- !u!114 &1204025880
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3441,6 +3566,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed000104fb39aa4dbe630eef8dffa86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OracionesSeparadoras:
+  - "Pedro de Valdivia naci\xF3 en..."
+  - Perico trepa por Chile.
+  - "Investigadores aseguran que el Talism\xE1n ten\xEDa propiedades curativas ."
+  - "Los ingredientes para el pie de lim\xF3n son..."
+  - "Pedro naci\xF3 en el a\xF1o 1986 y fue el menor de cuatro hermanos..."
+  - Padre, parto esta misiva para decirte...
+  - "Investigadores aseguran que el Talism\xE1n ten\xEDa propiedades curativas"
+  po: {fileID: 1204025880}
+  PartesOracion: []
 --- !u!1 &1211893497
 GameObject:
   m_ObjectHideFlags: 0
@@ -3925,6 +4060,7 @@ GameObject:
   - component: {fileID: 1405973198}
   - component: {fileID: 1405973201}
   - component: {fileID: 1405973202}
+  - component: {fileID: 1405973203}
   m_Layer: 5
   m_Name: Button_7
   m_TagString: Untagged
@@ -4051,6 +4187,36 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 200, y: 40}
+--- !u!114 &1405973203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1405973196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1204025881}
+          m_MethodName: detectarColision
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1405973196}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  delegates: []
 --- !u!1 &1406125643
 GameObject:
   m_ObjectHideFlags: 0
@@ -4374,7 +4540,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Investigadores
+  m_Text: 
 --- !u!222 &1510733786
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4394,6 +4560,7 @@ GameObject:
   - component: {fileID: 1551664888}
   - component: {fileID: 1551664891}
   - component: {fileID: 1551664892}
+  - component: {fileID: 1551664893}
   m_Layer: 5
   m_Name: Button_2
   m_TagString: Untagged
@@ -4520,6 +4687,36 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 200, y: 40}
+--- !u!114 &1551664893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1551664886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1204025881}
+          m_MethodName: detectarColision
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1551664886}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  delegates: []
 --- !u!1 &1583213604
 GameObject:
   m_ObjectHideFlags: 0
@@ -4841,6 +5038,7 @@ GameObject:
   - component: {fileID: 1652068696}
   - component: {fileID: 1652068699}
   - component: {fileID: 1652068700}
+  - component: {fileID: 1652068701}
   m_Layer: 5
   m_Name: Button_0
   m_TagString: Untagged
@@ -4967,6 +5165,36 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 200, y: 40}
+--- !u!114 &1652068701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1652068694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1204025881}
+          m_MethodName: detectarColision
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1652068694}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  delegates: []
 --- !u!1 &1700766152
 GameObject:
   m_ObjectHideFlags: 0
@@ -4980,6 +5208,7 @@ GameObject:
   - component: {fileID: 1700766154}
   - component: {fileID: 1700766157}
   - component: {fileID: 1700766158}
+  - component: {fileID: 1700766159}
   m_Layer: 5
   m_Name: Button_1
   m_TagString: Untagged
@@ -5106,6 +5335,36 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 200, y: 40}
+--- !u!114 &1700766159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1700766152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1204025881}
+          m_MethodName: detectarColision
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1700766152}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  delegates: []
 --- !u!1 &1729364805
 GameObject:
   m_ObjectHideFlags: 0
