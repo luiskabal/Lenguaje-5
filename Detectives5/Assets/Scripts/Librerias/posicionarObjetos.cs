@@ -48,6 +48,7 @@ public class posicionarObjetos : MonoBehaviour {
                 Debug.Log("No tiene collider");
             }
         }
+        Debug.Log("SE GUARDA TODO");
     }
     public void retornarTodo(GameObject objetos, Vector3 posicion, Vector3 tamaño, Vector3 tamañoCollider)
     {

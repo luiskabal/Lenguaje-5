@@ -176,6 +176,8 @@ GameObject:
   - component: {fileID: 16089608}
   - component: {fileID: 16089607}
   - component: {fileID: 16089606}
+  - component: {fileID: 16089609}
+  - component: {fileID: 16089610}
   m_Layer: 5
   m_Name: Button_6
   m_TagString: Untagged
@@ -276,6 +278,32 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 16089604}
+--- !u!114 &16089609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 16089604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b4b955167f7d91418d2221e4b2de224, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dragging: 0
+--- !u!61 &16089610
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 16089604}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 200, y: 40}
 --- !u!1 &52922773
 GameObject:
   m_ObjectHideFlags: 0
@@ -624,7 +652,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 186523448}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1204025879}
+        m_MethodName: AbrirOraciones
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 186523445}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &186523448
@@ -1056,7 +1095,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 405222235}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1204025879}
+        m_MethodName: verificarSeleccion
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 405222232}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &405222235
@@ -1103,6 +1153,8 @@ GameObject:
   - component: {fileID: 416869264}
   - component: {fileID: 416869263}
   - component: {fileID: 416869262}
+  - component: {fileID: 416869265}
+  - component: {fileID: 416869266}
   m_Layer: 5
   m_Name: Button_4
   m_TagString: Untagged
@@ -1203,6 +1255,32 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 416869260}
+--- !u!114 &416869265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 416869260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b4b955167f7d91418d2221e4b2de224, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dragging: 0
+--- !u!61 &416869266
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 416869260}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 200, y: 40}
 --- !u!1001 &464191816
 Prefab:
   m_ObjectHideFlags: 0
@@ -1408,7 +1486,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 557431787}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1204025879}
+        m_MethodName: AbrirOraciones
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 557431784}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &557431787
@@ -1459,7 +1548,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &561434809
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1970,6 +2059,8 @@ GameObject:
   - component: {fileID: 892464509}
   - component: {fileID: 892464508}
   - component: {fileID: 892464507}
+  - component: {fileID: 892464510}
+  - component: {fileID: 892464511}
   m_Layer: 5
   m_Name: Button_5
   m_TagString: Untagged
@@ -2070,6 +2161,32 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 892464505}
+--- !u!114 &892464510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 892464505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b4b955167f7d91418d2221e4b2de224, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dragging: 0
+--- !u!61 &892464511
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 892464505}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 200, y: 40}
 --- !u!1001 &928978176
 Prefab:
   m_ObjectHideFlags: 0
@@ -2239,6 +2356,8 @@ GameObject:
   - component: {fileID: 987377808}
   - component: {fileID: 987377807}
   - component: {fileID: 987377806}
+  - component: {fileID: 987377809}
+  - component: {fileID: 987377810}
   m_Layer: 5
   m_Name: Button_3
   m_TagString: Untagged
@@ -2339,6 +2458,32 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 987377804}
+--- !u!114 &987377809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 987377804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b4b955167f7d91418d2221e4b2de224, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dragging: 0
+--- !u!61 &987377810
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 987377804}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 200, y: 40}
 --- !u!1 &1006273004
 GameObject:
   m_ObjectHideFlags: 0
@@ -2511,7 +2656,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1030772961}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1204025879}
+        m_MethodName: AbrirOraciones
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1030772958}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1030772961
@@ -2621,7 +2777,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1031935689}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1204025879}
+        m_MethodName: AbrirOraciones
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1031935686}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1031935689
@@ -2731,7 +2898,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1032071718}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1204025879}
+        m_MethodName: AbrirOraciones
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1032071715}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1032071718
@@ -2842,7 +3020,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1049317455}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1204025879}
+        m_MethodName: verificarSeleccion
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1049317452}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1049317455
@@ -3036,9 +3225,14 @@ GameObject:
   - component: {fileID: 1204025875}
   - component: {fileID: 1204025876}
   - component: {fileID: 1204025877}
+  - component: {fileID: 1204025879}
+  - component: {fileID: 1204025878}
+  - component: {fileID: 1204025880}
+  - component: {fileID: 1204025881}
+  - component: {fileID: 1204025882}
   m_Layer: 5
   m_Name: ScriptHolder
-  m_TagString: Untagged
+  m_TagString: Scripts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3108,6 +3302,145 @@ MonoBehaviour:
   bigBossScript: {fileID: 1204025876}
   messages:
   - Funciona actividad culia.
+--- !u!114 &1204025878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1204025874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75b7a99a9e2905a4b9753883721b8683, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Oraciones:
+  - "Narraci\xF3n cuya intenci\xF3n es contar detalles de determinados procesos hist\xF3ricos."
+  - ??????????????????????????????????????????????????????????????????????????
+  - "Informe escrito que comunica por primera vez los resultados de una investigaci\xF3n."
+  - "Descripci\xF3n de un proceso que nos ense\xF1a c\xF3mo preparar alimentos."
+  - "Narraci\xF3n sobre una persona."
+  - Texto escrito de una persona a otra. Generalmente va en un sobre.
+  - "Comunicaci\xF3n o informe que se da respecto de un hecho reciente. Es objetiva."
+  Cartas:
+  - {fileID: 21300000, guid: 874487772fb9a2d4a9ecc167fa7e324f, type: 3}
+  - {fileID: 21300000, guid: 529b4fa4622eab94994317ddcef4959c, type: 3}
+  - {fileID: 21300000, guid: 39e443a04321f0747b02dbcc2ba50d51, type: 3}
+  - {fileID: 21300000, guid: 48fa3157ecc85fb4d9275c445a1a94d2, type: 3}
+  - {fileID: 21300000, guid: 3a40b737d3e03dd439054f6bb433bd95, type: 3}
+  - {fileID: 21300000, guid: d9184d8d24987f54295cc286365352dd, type: 3}
+  - {fileID: 21300000, guid: 0d2fc188ec5ccc446918f91219a0cb15, type: 3}
+  Botones:
+  - {fileID: 1032071715}
+  - {fileID: 186523445}
+  - {fileID: 1031935686}
+  - {fileID: 1729364805}
+  - {fileID: 1030772958}
+  - {fileID: 557431784}
+  - {fileID: 2051640439}
+  Opciones:
+  - {fileID: 1049317452}
+  - {fileID: 405222232}
+  - {fileID: 1406125643}
+  Alternativas0:
+  - "Relato hist\xF3rico"
+  - Novela
+  - Carta
+  Alternativas1:
+  - Novela
+  - Carta
+  - "Biograf\xEDa"
+  Alternativas2:
+  - "Art\xEDculo cient\xEDfico"
+  - "Biograf\xEDa"
+  - Novela
+  Alternativas3:
+  - Receta
+  - Novela
+  - Carta
+  Alternativas4:
+  - "Biograf\xEDa"
+  - "Relato hist\xF3rico"
+  - Novela
+  Alternativas5:
+  - Carta
+  - Novela
+  - "Biograf\xEDa"
+  Alternativas6:
+  - Noticia
+  - "Biograf\xEDa"
+  - "Relato hist\xF3rico"
+  Preguntas_alternativas: {fileID: 1937241884}
+  Preguntas: {fileID: 476967068}
+  Pregunta: {fileID: 1250901820}
+  TextoPregunta: {fileID: 1595391985}
+  Parte2: {fileID: 561434808}
+--- !u!114 &1204025879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1204025874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176386b687fe8894da047dedc17d698f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EtapaA: 0
+  EtapaB: 0
+  EtapaC: 1
+--- !u!114 &1204025880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1204025874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ffc9de70321fe247a49744f430f011e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objetos:
+  - {fileID: 1652068694}
+  - {fileID: 1700766152}
+  - {fileID: 1551664886}
+  - {fileID: 987377804}
+  - {fileID: 416869260}
+  - {fileID: 892464505}
+  - {fileID: 16089604}
+  - {fileID: 1405973196}
+--- !u!114 &1204025881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1204025874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a168151ffb58cd94785cd5ca9e734207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  po: {fileID: 1204025880}
+  acierto: {fileID: 0}
+  Tocado: 0
+  Acertado: 0
+  Tags: 0
+  Names: 1
+  JuntarObjetos: 1
+  DesaparecerArrastrable: 0
+  "DesaparecerColisi\xF3n": 0
+  ColliderArrastrable: 1
+  ColliderColision: 1
+--- !u!114 &1204025882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1204025874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ed000104fb39aa4dbe630eef8dffa86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1211893497
 GameObject:
   m_ObjectHideFlags: 0
@@ -3590,6 +3923,8 @@ GameObject:
   - component: {fileID: 1405973200}
   - component: {fileID: 1405973199}
   - component: {fileID: 1405973198}
+  - component: {fileID: 1405973201}
+  - component: {fileID: 1405973202}
   m_Layer: 5
   m_Name: Button_7
   m_TagString: Untagged
@@ -3690,6 +4025,32 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1405973196}
+--- !u!114 &1405973201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1405973196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b4b955167f7d91418d2221e4b2de224, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dragging: 0
+--- !u!61 &1405973202
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1405973196}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 200, y: 40}
 --- !u!1 &1406125643
 GameObject:
   m_ObjectHideFlags: 0
@@ -3765,7 +4126,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1406125646}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1204025879}
+        m_MethodName: verificarSeleccion
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1406125643}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1406125646
@@ -4020,6 +4392,8 @@ GameObject:
   - component: {fileID: 1551664890}
   - component: {fileID: 1551664889}
   - component: {fileID: 1551664888}
+  - component: {fileID: 1551664891}
+  - component: {fileID: 1551664892}
   m_Layer: 5
   m_Name: Button_2
   m_TagString: Untagged
@@ -4120,6 +4494,32 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1551664886}
+--- !u!114 &1551664891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1551664886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b4b955167f7d91418d2221e4b2de224, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dragging: 0
+--- !u!61 &1551664892
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1551664886}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 200, y: 40}
 --- !u!1 &1583213604
 GameObject:
   m_ObjectHideFlags: 0
@@ -4439,6 +4839,8 @@ GameObject:
   - component: {fileID: 1652068698}
   - component: {fileID: 1652068697}
   - component: {fileID: 1652068696}
+  - component: {fileID: 1652068699}
+  - component: {fileID: 1652068700}
   m_Layer: 5
   m_Name: Button_0
   m_TagString: Untagged
@@ -4539,6 +4941,32 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1652068694}
+--- !u!114 &1652068699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1652068694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b4b955167f7d91418d2221e4b2de224, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dragging: 0
+--- !u!61 &1652068700
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1652068694}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 200, y: 40}
 --- !u!1 &1700766152
 GameObject:
   m_ObjectHideFlags: 0
@@ -4550,6 +4978,8 @@ GameObject:
   - component: {fileID: 1700766156}
   - component: {fileID: 1700766155}
   - component: {fileID: 1700766154}
+  - component: {fileID: 1700766157}
+  - component: {fileID: 1700766158}
   m_Layer: 5
   m_Name: Button_1
   m_TagString: Untagged
@@ -4650,6 +5080,32 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1700766152}
+--- !u!114 &1700766157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1700766152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b4b955167f7d91418d2221e4b2de224, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dragging: 0
+--- !u!61 &1700766158
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1700766152}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 200, y: 40}
 --- !u!1 &1729364805
 GameObject:
   m_ObjectHideFlags: 0
@@ -4724,7 +5180,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1729364808}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1204025879}
+        m_MethodName: AbrirOraciones
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1729364805}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1729364808
@@ -5223,7 +5690,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2051640442}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1204025879}
+        m_MethodName: AbrirOraciones
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2051640439}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &2051640442

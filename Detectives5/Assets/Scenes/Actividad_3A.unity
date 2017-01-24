@@ -164,7 +164,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Novela
+  m_Text: '
+
+'
 --- !u!222 &104965851
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -365,7 +367,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 186523448}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1204025879}
+        m_MethodName: AbrirOraciones
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 186523445}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &186523448
@@ -561,7 +574,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Biograf\xEDa"
+  m_Text: '
+
+'
 --- !u!222 &333132261
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -649,7 +664,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 405222235}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1204025879}
+        m_MethodName: verificarSeleccion
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 405222232}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &405222235
@@ -890,7 +916,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 557431787}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1204025879}
+        m_MethodName: AbrirOraciones
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 557431784}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &557431787
@@ -1082,7 +1119,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Noticia
+  m_Text: '
+
+'
 --- !u!222 &842761425
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1495,7 +1534,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1030772961}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1204025879}
+        m_MethodName: AbrirOraciones
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1030772958}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1030772961
@@ -1605,7 +1655,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1031935689}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1204025879}
+        m_MethodName: AbrirOraciones
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1031935686}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1031935689
@@ -1715,7 +1776,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1032071718}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1204025879}
+        m_MethodName: AbrirOraciones
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1032071715}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1032071718
@@ -1826,7 +1898,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1049317455}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1204025879}
+        m_MethodName: verificarSeleccion
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1049317452}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1049317455
@@ -1946,9 +2029,11 @@ GameObject:
   - component: {fileID: 1204025875}
   - component: {fileID: 1204025876}
   - component: {fileID: 1204025877}
+  - component: {fileID: 1204025879}
+  - component: {fileID: 1204025878}
   m_Layer: 5
   m_Name: ScriptHolder
-  m_TagString: Untagged
+  m_TagString: Scripts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1994,8 +2079,8 @@ MonoBehaviour:
   etapas: {fileID: 400272595}
   Instrucciones: {fileID: 849471471}
   otrosAudios: []
-  stars: 4
-  hitsToStar: 2
+  stars: 5
+  hitsToStar: 1
   ShowAlertOnStar: 1
   showCounter: 1
   muestraTiempo: 1
@@ -2018,6 +2103,91 @@ MonoBehaviour:
   bigBossScript: {fileID: 1204025876}
   messages:
   - Funciona actividad culia.
+--- !u!114 &1204025878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1204025874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75b7a99a9e2905a4b9753883721b8683, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Oraciones:
+  - "Pedro de Valdivia naci\xF3 en..."
+  - Perico trepa por Chile
+  - "Investigadores aseguran que el Talism\xE1n ten\xEDa propiedades curativas"
+  - "Los ingredientes para el pie de lim\xF3n son..."
+  - "Pedro naci\xF3 en el a\xF1o 1986 y fue el menor de cuatro hermanos..."
+  - Padre, parto esta misiva para decirte...
+  - "Investigadores aseguran que el Talism\xE1n ten\xEDa propiedades curativas"
+  Cartas:
+  - {fileID: 21300000, guid: 874487772fb9a2d4a9ecc167fa7e324f, type: 3}
+  - {fileID: 21300000, guid: 529b4fa4622eab94994317ddcef4959c, type: 3}
+  - {fileID: 21300000, guid: 39e443a04321f0747b02dbcc2ba50d51, type: 3}
+  - {fileID: 21300000, guid: 48fa3157ecc85fb4d9275c445a1a94d2, type: 3}
+  - {fileID: 21300000, guid: 3a40b737d3e03dd439054f6bb433bd95, type: 3}
+  - {fileID: 21300000, guid: d9184d8d24987f54295cc286365352dd, type: 3}
+  - {fileID: 21300000, guid: 0d2fc188ec5ccc446918f91219a0cb15, type: 3}
+  Botones:
+  - {fileID: 1032071715}
+  - {fileID: 186523445}
+  - {fileID: 1031935686}
+  - {fileID: 1729364805}
+  - {fileID: 1030772958}
+  - {fileID: 557431784}
+  - {fileID: 2051640439}
+  Opciones:
+  - {fileID: 1049317452}
+  - {fileID: 405222232}
+  - {fileID: 1406125643}
+  Alternativas0:
+  - "Relato hist\xF3rico"
+  - Novela
+  - Carta
+  Alternativas1:
+  - Novela
+  - Carta
+  - "Biograf\xEDa"
+  Alternativas2:
+  - "Art\xEDculo cient\xEDfico"
+  - "Biograf\xEDa"
+  - Novela
+  Alternativas3:
+  - Receta
+  - Novela
+  - Carta
+  Alternativas4:
+  - "Biograf\xEDa"
+  - "Relato hist\xF3rico"
+  - Novela
+  Alternativas5:
+  - Carta
+  - Novela
+  - "Biograf\xEDa"
+  Alternativas6:
+  - Noticia
+  - "Biograf\xEDa"
+  - "Relato hist\xF3rico"
+  Preguntas_alternativas: {fileID: 1937241884}
+  Preguntas: {fileID: 476967068}
+  Pregunta: {fileID: 1250901820}
+  TextoPregunta: {fileID: 1595391985}
+--- !u!114 &1204025879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1204025874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176386b687fe8894da047dedc17d698f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EtapaA: 1
+  EtapaB: 0
+  EtapaC: 0
 --- !u!1 &1211893497
 GameObject:
   m_ObjectHideFlags: 0
@@ -2563,7 +2733,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1406125646}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1204025879}
+        m_MethodName: verificarSeleccion
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1406125643}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1406125646
@@ -2922,7 +3103,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Investigadores aseguran que el Talism\xE1n ten\xEDa propiedades curativas"
+  m_Text: 
 --- !u!222 &1595391986
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3115,7 +3296,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1729364808}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1204025879}
+        m_MethodName: AbrirOraciones
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1729364805}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1729364808
@@ -3614,7 +3806,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2051640442}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1204025879}
+        m_MethodName: AbrirOraciones
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2051640439}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &2051640442

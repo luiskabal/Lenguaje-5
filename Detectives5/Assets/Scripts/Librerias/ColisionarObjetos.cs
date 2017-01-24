@@ -67,7 +67,7 @@ public posicionarObjetos po;
 
       }
         if (hit.Length<=1) {
-            po.reposicionarUnObjeto(o);
+            volverPosicion(o);
   
         }
     }
@@ -83,8 +83,8 @@ public posicionarObjetos po;
                 Acertado = true;
             }
             else {
-      
-                po.reposicionarUnObjeto(a);
+
+                volverPosicion(a);
             }
         }
         
@@ -97,7 +97,7 @@ public posicionarObjetos po;
                 Acertado = true;
             }
             else {
-                po.reposicionarUnObjeto(a);
+                volverPosicion(a);
             }
         }
 
@@ -128,6 +128,10 @@ public posicionarObjetos po;
         {
             b.GetComponent<BoxCollider2D>().size = new Vector2(0f, 0f);
         }
+    }
+    void volverPosicion(GameObject o) {
+        Debug.Log("Vuelve a la posicion");
+        po.reposicionarUnObjeto(o); 
     }
    public void reiniciarCollision() {
         Acertado = false;

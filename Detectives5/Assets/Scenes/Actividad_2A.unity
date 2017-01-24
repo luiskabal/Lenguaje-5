@@ -1152,7 +1152,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &383203247
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3401,16 +3401,6 @@ MonoBehaviour:
   - "Ni\xF1os:Vendo mis vendo bolitas de oro. -L."
   - "Padre: Junt\xE9monos a la salida del museo. Quiero contarte algo."
   - "Perfume \"An\xEDmate\", el perfume pensado en el hombre."
-  AlternativasOracion:
-  - Un Poema
-  - Noticia
-  - Aviso publicitario
-  - Un Poema
-  - Noticia
-  - Aviso publicitario
-  - Un Poema
-  - Noticia
-  - Aviso publicitario
   Objetos:
   - {fileID: 533114078}
   - {fileID: 817286683}
