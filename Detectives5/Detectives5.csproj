@@ -86,8 +86,11 @@
     <Compile Include="Assets\Scripts\Actividades\Actividad01\Actividad_01C\Act_1CController.cs" />
     <Compile Include="Assets\Scripts\Actividades\Actividad02\Actividad_02A\Act_2AController.cs" />
     <Compile Include="Assets\Scripts\Actividades\Actividad02\Actividad_02A\GeneradorAlternativas.cs" />
-    <Compile Include="Assets\Scripts\Actividades\Actividad03\Assets_03.cs" />
-    <Compile Include="Assets\Scripts\Actividades\Actividad03\Control_Lvl_03.cs" />
+    <Compile Include="Assets\Scripts\Actividades\Actividad03\Actividad_03A\Act_3AController.cs" />
+    <Compile Include="Assets\Scripts\Actividades\Actividad03\Actividad_03A\Model_3A.cs" />
+    <Compile Include="Assets\Scripts\Actividades\Actividad03\Actividad_03C\Mecanicas_3C.cs" />
+    <Compile Include="Assets\Scripts\Actividades\Actividad04\Assets_03.cs" />
+    <Compile Include="Assets\Scripts\Actividades\Actividad04\Control_Lvl_03.cs" />
     <Compile Include="Assets\Scripts\Actividades\ActividadTEST\TestController.cs" />
     <Compile Include="Assets\Scripts\Actividades\Level_Template_Control.cs" />
     <Compile Include="Assets\Scripts\Controllers\Android.cs" />
@@ -127,7 +130,6 @@
     <Compile Include="Assets\Scripts\Librerias\SeparadorHijos.cs" />
     <Compile Include="Assets\Scripts\Librerias\VerificarBoton.cs" />
     <Compile Include="Assets\Scripts\Librerias\arrastrarObjetos.cs" />
-    <Compile Include="Assets\Scripts\Librerias\colicionarObjetos.cs" />
     <Compile Include="Assets\Scripts\Librerias\posicionarObjetos.cs" />
     <Compile Include="Assets\Scripts\Logos\GotoLogin.cs" />
     <Compile Include="Assets\Scripts\Sombras\BoxOutline.cs" />
