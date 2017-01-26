@@ -33,14 +33,20 @@ public class arrastrarObjetos : MonoBehaviour {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             Vector3 rayPoint = ray.GetPoint(distance);
             this.gameObject.transform.position = rayPoint;
+          // co.agrandarAlArrastrar(this.gameObject);
+            if (co.AgrandaArrastrable||co.AgrandaColision) {
+                co.ColisionAlMover(this.gameObject);
+            }
         }
+
     }
 
     void OnMouseUp() {
 
         dragging = false;
-        Invoke("activarColliders",0.1f);
-      }
+        Invoke("activarColliders", 0.1f);
+        Invoke("todoNormal", 0.1f);
+    }
 
     void achicarColliders()
     {
@@ -58,7 +64,9 @@ public class arrastrarObjetos : MonoBehaviour {
            
         }
     }
-
+    void todoNormal() {
+        co.todoNormal();
+    }
     void activarColliders()
     {
         for (int i = 0; i < co.po.objetos.Length; i++)

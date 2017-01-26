@@ -656,7 +656,7 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 405222235}
   m_OnClick:
     m_PersistentCalls:
@@ -1012,7 +1012,7 @@ Prefab:
       objectReference: {fileID: 1618637494}
     - target: {fileID: 162862, guid: 1cee5cc98387d8c4e98c33f203c2056e, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1cee5cc98387d8c4e98c33f203c2056e, type: 2}
@@ -1256,6 +1256,11 @@ Prefab:
     - target: {fileID: 1000011959671910, guid: c35ced595037f85498a99a4a2278ec5b, type: 2}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212932007197433844, guid: c35ced595037f85498a99a4a2278ec5b,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: 80
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c35ced595037f85498a99a4a2278ec5b, type: 2}
@@ -1888,7 +1893,7 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1049317455}
   m_OnClick:
     m_PersistentCalls:
@@ -1951,6 +1956,11 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 849471470}
   m_Script: {fileID: 11500000, guid: b9b65ad22856d3444bfc768c5828965f, type: 3}
+--- !u!1 &1164848914 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1851399245837504, guid: c35ced595037f85498a99a4a2278ec5b,
+    type: 2}
+  m_PrefabInternal: {fileID: 849471470}
 --- !u!1 &1193502815
 GameObject:
   m_ObjectHideFlags: 0
@@ -2078,7 +2088,7 @@ MonoBehaviour:
   ShowAlertOnStar: 1
   showCounter: 1
   muestraTiempo: 1
-  cantidadVidas: 3
+  cantidadVidas: 5
   personajeVidas: 0
   hasTimeLimit: 1
   tiempoJuego: 300
@@ -2168,6 +2178,7 @@ MonoBehaviour:
   Preguntas: {fileID: 476967068}
   Pregunta: {fileID: 1250901820}
   TextoPregunta: {fileID: 1595391985}
+  Parte2: {fileID: 0}
 --- !u!114 &1204025879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2179,9 +2190,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 176386b687fe8894da047dedc17d698f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  messages: []
+  acierto: {fileID: 1164848914}
   EtapaA: 0
   EtapaB: 1
   EtapaC: 0
+  mec: {fileID: 0}
 --- !u!1 &1211893497
 GameObject:
   m_ObjectHideFlags: 0
@@ -2723,7 +2737,7 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1406125646}
   m_OnClick:
     m_PersistentCalls:

@@ -4,7 +4,9 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class Act_3AController : MonoBehaviour {
+public class Act_3AController : BigMama {
+    public string[] messages;
+    public GameObject acierto;
     List<int> numeroCartas = new List<int>();
     List<int> numeroOpciones = new List<int>();
     public bool EtapaA;
@@ -25,6 +27,12 @@ public class Act_3AController : MonoBehaviour {
      
     }
 
+    private void StartTheGame()
+    {
+        if (!bb.IsMusicPlaying())
+            bb.PlayDefaultMusic();
+        bb.SetMainMessage(messages[0]);
+    }
     // Update is called once per frame
     void Update() {
 
@@ -32,7 +40,8 @@ public class Act_3AController : MonoBehaviour {
     public void AbrirOraciones(GameObject o)
     {
         generarOracion(o);
-        HabilitarPreguntas();
+        HabilitarPreguntas();   
+        habilitarBotones();
         o.GetComponent<Button>().interactable = false;
 
 
@@ -88,8 +97,10 @@ public class Act_3AController : MonoBehaviour {
     }
 
    public  void verificarSeleccion(GameObject o) {
+        acierto.transform.position = o.transform.position;
         if (o.tag == "Verdadero")
         {
+            o.GetComponent<Button>().interactable = false;
             ganar();
         }
         else {
@@ -116,6 +127,11 @@ public class Act_3AController : MonoBehaviour {
         bb.Bad();
     }
 
+    void habilitarBotones() {
+        for (int i=0;i<Model3A.Opciones.Length;i++) {
+            Model3A.Opciones[i].GetComponent<Button>().interactable = true;
+        }
+    }
     public void HabilitarPreguntas()
     {
         Model3A.Preguntas_alternativas.SetActive(true);
@@ -165,5 +181,6 @@ public class Act_3AController : MonoBehaviour {
         nr.GNR_Numeros(numeroOpciones, Model3A.Opciones.Length);
 
     }
+  
 
 }

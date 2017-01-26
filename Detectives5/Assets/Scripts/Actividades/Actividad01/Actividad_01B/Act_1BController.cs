@@ -4,7 +4,10 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class Act_1BController : MonoBehaviour {
+public class Act_1BController : BigMama {
+
+    public string[] messages;
+    public GameObject acierto;
     BigBoss bb;
     public GameObject[] TodasCartas;
     public GameObject[] TodasSecuencias;
@@ -44,23 +47,32 @@ public class Act_1BController : MonoBehaviour {
 
     void Start () {
         numeroSecuencia = 0;
+        numeroDeJuegosTotales = 0;
+        numeroDeJuegosActuales = 0;
         bb = GameObject.FindWithTag("Scripts").GetComponent<BigBoss>();
         desaparecerTodasCartas();
         nombresTextos();
         mostrarCarta();
         Invoke("desaparecerSecuencias", 0f);
+        bb.Comenzar();
+      //  StartTheGame();
     }
-   
- 
+
+    private void StartTheGame()
+    {
+        if (!bb.IsMusicPlaying())
+            bb.PlayDefaultMusic();
+        bb.SetMainMessage(messages[0]);
+    }
     void mostrarCarta() {
      
-        if (numeroSecuencia <= 3)
+        if (numeroSecuencia <= 2)
         {
             TodasCartas[0].gameObject.SetActive(true);
            
         }
         else {
-            if (numeroSecuencia >= 4 && numeroSecuencia <= 6)
+            if (numeroSecuencia >= 4 && numeroSecuencia <= 3)
             {
                 TodasCartas[1].gameObject.SetActive(true);
              
@@ -189,8 +201,14 @@ public class Act_1BController : MonoBehaviour {
     }
     public void cerrarCarta()
     {
-        TodasSecuencias[numeroSecuencia].gameObject.GetComponent<Animator>().SetTrigger("Carta_Off");
-        Invoke("desaparecerSecuencias", 1f);
+        for (int i=0;i<TodasSecuencias.Length;i++) {
+            if (TodasSecuencias[i].activeInHierarchy) {
+                TodasSecuencias[i].gameObject.GetComponent<Animator>().SetTrigger("Carta_Off");
+                break;
+            }
+        }
+       
+        Invoke("desaparecerSecuencias", 4f);
     }
 
     void numerarTextos() {
@@ -232,6 +250,7 @@ public class Act_1BController : MonoBehaviour {
     }
     public void verificarEleccion(Button b)
     {
+        acierto.transform.position = b.transform.position;
         if (b.tag == "Verdadero")
         {
            
@@ -270,6 +289,7 @@ public class Act_1BController : MonoBehaviour {
     }
     void desaparecerTodasCartas()
     {
+        Debug.Log("DESAPAREE TODO");
         for (int i = 0; i < TodasCartas.Length; i++)
         {
             TodasCartas[i].SetActive(false);

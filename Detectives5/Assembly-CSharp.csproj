@@ -88,6 +88,7 @@
      <Compile Include="Assets\Scripts\Controllers\StarsNumeric.cs" />
      <Compile Include="Assets\Scripts\EmergencyLoad.cs" />
      <Compile Include="Assets\Scripts\Librerias\ColisionarObjetos.cs" />
+     <Compile Include="Assets\Scripts\Librerias\FadeOutObjects.cs" />
      <Compile Include="Assets\Scripts\Librerias\Halp.cs" />
      <Compile Include="Assets\Scripts\Librerias\NumeroRandom.cs" />
      <Compile Include="Assets\Scripts\Librerias\PruebasAcelerometro.cs" />

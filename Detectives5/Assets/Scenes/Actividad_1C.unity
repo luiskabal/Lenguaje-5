@@ -18487,6 +18487,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   po: {fileID: 0}
+  ColisionesOriginales: []
+  ArrastrablesOriginales: []
   acierto: {fileID: 0}
   Tocado: 0
   Acertado: 0
@@ -18497,6 +18499,10 @@ MonoBehaviour:
   "DesaparecerColisi\xF3n": 0
   ColliderArrastrable: 0
   ColliderColision: 0
+  AgrandaArrastrable: 0
+  AgrandaColision: 1
+  AgrandaArrastrableArrastre: 1
+  AgrandaColisionArrastre: 0
 --- !u!1 &1206518305
 GameObject:
   m_ObjectHideFlags: 0

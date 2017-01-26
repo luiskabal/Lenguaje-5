@@ -4,10 +4,14 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class Act_2AController : MonoBehaviour {
+public class Act_2AController : BigMama {
     List<int> numeroOraciones = new List<int>();
     List<int> numeroTipoOracion = new List<int>();
     List<int> numeroAlternativas = new List<int>();
+    FadeOutObjects foo = new FadeOutObjects();
+   public  List<GameObject> ObjetosOcupados = new List<GameObject>();
+    public GameObject acierto;
+    public string[] messages;
     GeneradorAlternativas ga;
     NumeroRandom nr = new NumeroRandom();
     BigBoss bb;
@@ -18,30 +22,67 @@ public class Act_2AController : MonoBehaviour {
     public GameObject Preguntas;
     public Text textoPregunta;
     public GameObject Luz;
+    public GameObject CuadroPregunta;
+    static GameObject ObjetoDesvancedor;
     string[,,] a;
     static int numeroPartida;
     static string Tipo;
 
     void Start() {
+        ObjetosOcupados.Clear();
         a = new string[Oraciones.Length, 4, Alternativas.Length];
         ga = GameObject.FindWithTag("Scripts").GetComponent<GeneradorAlternativas>();
         bb = GameObject.FindWithTag("Scripts").GetComponent<BigBoss>();
         generarOracionRandom();
         Invoke("apagarLuz", 12f);
         numeroPartida = 0;
+        bb.Comenzar();
+        StartTheGame();
+    }
+    private void StartTheGame()
+    {
+        if (!bb.IsMusicPlaying())
+            bb.PlayDefaultMusic();
+        bb.SetMainMessage(messages[0]);
     }
     public void objetoSeleccionado(GameObject o) {
         falsearAlternativas();
-        o.GetComponent<Button>().interactable = false;
+        for (int i=0;i<Objetos.Length;i++) {
+            Objetos[i].GetComponent<Button>().interactable = false;
+        }
+        foo.FadeOut(o);
+        ObjetosOcupados.Add(o);
+        ObjetoDesvancedor = o;
         generarAlternativasRandom();
         generarTipoOracion();
         Tipo = tipoOracion[numeroTipoOracion[0]];
         generarAlternativas();
-        textoPregunta.text = Oraciones[numeroOraciones[numeroPartida]] + " " + Tipo;
-      
+        textoPregunta.text = Oraciones[numeroOraciones[numeroPartida]] ;
+        CuadroPregunta.transform.GetChild(0).gameObject.GetComponent<Text>().text = Tipo;
+
+
         abrirPregunta();
         numeroPartida++;
 
+    }
+    void FadeOut() {
+    
+
+    }
+
+    void deshabilitarObjetos() {
+        for (int i = 0; i < Objetos.Length; i++)
+        {
+            Objetos[i].GetComponent<Button>().interactable = false;
+        }
+    }
+    void habilitarObjetos() {
+        for (int i = 0; i < Objetos.Length; i++)
+        {
+            if (!ObjetosOcupados.Contains(Objetos[i])) {
+                Objetos[i].GetComponent<Button>().interactable = true;
+            }
+        }
     }
     void falsearAlternativas() {
         foreach (GameObject a in Alternativas) {
@@ -373,10 +414,12 @@ public class Act_2AController : MonoBehaviour {
         Preguntas.SetActive(false);
     }
   public  void verificarRespuesta(GameObject o) {
+        acierto.transform.position = o.transform.position;
         if (o.tag == "Verdadero") {
             ganar();
         }else
         {
+          
             perder();
         }
 
@@ -389,6 +432,8 @@ public class Act_2AController : MonoBehaviour {
             {
                 desactivarAlternativas();
                 cerrarPregunta();
+             
+                Invoke("habilitarObjetos",2f);
             }
         }
     }

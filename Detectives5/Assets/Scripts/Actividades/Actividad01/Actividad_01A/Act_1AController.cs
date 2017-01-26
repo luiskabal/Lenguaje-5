@@ -4,13 +4,16 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class Act_1AController : MonoBehaviour {
+public class Act_1AController : BigMama
+{
+    public string[] messages;
     BigBoss bb;
     List<int> numeroCartas = new List<int>();
     public GameObject[] TodasCartas;
     public GameObject botonCarta;
     NumeroRandom nr = new NumeroRandom();
     static int numeroInicial;
+    public GameObject acierto;
     // Use this for initialization
     void Start() {
         moverCarta();
@@ -18,7 +21,8 @@ public class Act_1AController : MonoBehaviour {
         generarCartaRandom();
         bb = GameObject.FindWithTag("Scripts").GetComponent<BigBoss>();
         //iniciar();
-
+        bb.Comenzar();
+        StartTheGame();
     }
 
     // Update is called once per frame
@@ -29,7 +33,12 @@ public class Act_1AController : MonoBehaviour {
     void iniciar() {       
         Invoke("deshabilitarCartas", 0f);    
     }
-
+    private void StartTheGame()
+    {
+        if (!bb.IsMusicPlaying())
+            bb.PlayDefaultMusic();
+        bb.SetMainMessage(messages[0]);
+    }
     void deshabilitarCartas() {
         for (int i = 0; i < TodasCartas.Length; i++)
         {
@@ -92,6 +101,7 @@ public class Act_1AController : MonoBehaviour {
     }
 
     public void verificarEleccion(Button b) {
+        acierto.transform.position = b.transform.position;
         if (b.tag == "Verdadero")
         {
             b.GetComponent<Button>().interactable = false;

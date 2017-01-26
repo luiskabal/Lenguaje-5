@@ -6819,6 +6819,16 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 223000011067153836, guid: c35ced595037f85498a99a4a2278ec5b,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 212932007197433844, guid: c35ced595037f85498a99a4a2278ec5b,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: 70
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c35ced595037f85498a99a4a2278ec5b, type: 2}
   m_IsPrefabParent: 0
@@ -8868,6 +8878,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5aa13894185e76d4e8335f07aec240d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  messages:
+  - Instrucciones
   TodasCartas:
   - {fileID: 1525357246}
   - {fileID: 266300588}
@@ -8876,6 +8888,7 @@ MonoBehaviour:
   - {fileID: 193476855}
   - {fileID: 799154682}
   botonCarta: {fileID: 1577890656}
+  acierto: {fileID: 1478718097}
 --- !u!114 &1204025879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10764,6 +10777,11 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1459196225}
+--- !u!1 &1478718097 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1851399245837504, guid: c35ced595037f85498a99a4a2278ec5b,
+    type: 2}
+  m_PrefabInternal: {fileID: 849471470}
 --- !u!1 &1483003055
 GameObject:
   m_ObjectHideFlags: 0
@@ -16466,7 +16484,7 @@ Prefab:
       objectReference: {fileID: 1204025874}
     - target: {fileID: 1000011893041294, guid: 4ddf894dec570184eba960ff49d3e3da, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4ddf894dec570184eba960ff49d3e3da, type: 2}

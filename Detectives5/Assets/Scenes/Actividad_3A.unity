@@ -1272,6 +1272,11 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 849471470}
   m_Script: {fileID: 11500000, guid: da64b46dd12ea2d4ab83a5348aa2022c, type: 3}
+--- !u!1 &849471472 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1851399245837504, guid: c35ced595037f85498a99a4a2278ec5b,
+    type: 2}
+  m_PrefabInternal: {fileID: 849471470}
 --- !u!1001 &928978176
 Prefab:
   m_ObjectHideFlags: 0
@@ -2174,6 +2179,7 @@ MonoBehaviour:
   Preguntas: {fileID: 476967068}
   Pregunta: {fileID: 1250901820}
   TextoPregunta: {fileID: 1595391985}
+  Parte2: {fileID: 0}
 --- !u!114 &1204025879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2185,9 +2191,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 176386b687fe8894da047dedc17d698f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  messages: []
+  acierto: {fileID: 849471472}
   EtapaA: 1
   EtapaB: 0
   EtapaC: 0
+  mec: {fileID: 0}
 --- !u!1 &1211893497
 GameObject:
   m_ObjectHideFlags: 0

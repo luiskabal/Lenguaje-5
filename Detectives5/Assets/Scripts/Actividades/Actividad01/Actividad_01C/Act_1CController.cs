@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Act_1CController : MonoBehaviour {
+public class Act_1CController : BigMama {
+    public string[] messages;
     BigBoss bb;
     posicionarObjetos po;
     ColisionarObjetos co;
@@ -21,11 +22,17 @@ public class Act_1CController : MonoBehaviour {
         numeroGanadas = 0;
         desaparecerTodasCartas();
         mostrarCarta();
-       
+        bb = GameObject.FindWithTag("Scripts").GetComponent<BigBoss>();
+        bb.Comenzar();
     }
-	
-	// Update is called once per frame
-	void Update () {
+    private void StartTheGame()
+    {
+        if (!bb.IsMusicPlaying())
+            bb.PlayDefaultMusic();
+        bb.SetMainMessage(messages[0]);
+    }
+    // Update is called once per frame
+    void Update () {
 		
 	}
     void guardarPosiciones() {
@@ -93,7 +100,6 @@ public class Act_1CController : MonoBehaviour {
                 if (numeroGanadas==0) {
                     ganar();
                 }
-
             }
             else
             {

@@ -8105,7 +8105,7 @@ Prefab:
       objectReference: {fileID: 1618637494}
     - target: {fileID: 162862, guid: 1cee5cc98387d8c4e98c33f203c2056e, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1cee5cc98387d8c4e98c33f203c2056e, type: 2}
@@ -16520,7 +16520,7 @@ MonoBehaviour:
   etapas: {fileID: 400272595}
   Instrucciones: {fileID: 849471471}
   otrosAudios: []
-  stars: 5
+  stars: 4
   hitsToStar: 2
   ShowAlertOnStar: 1
   showCounter: 1
@@ -16555,6 +16555,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf0a5bcb28001d24aa2f94df01d416ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  messages: []
   TodasCartas:
   - {fileID: 1577890656}
   - {fileID: 1499297303}
